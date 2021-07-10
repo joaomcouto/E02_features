@@ -49,16 +49,6 @@ class IpStackFeaturesExtractor():
         ipstack_data['ip_longitude'] = round(self.get_longitude(ipstack_location_dict),2)
         return ipstack_data
 
-
-url = "https://www.uol.com.br/"
-print(url + "\n")
-
-ipstack_data_extractor = IpStackFeaturesExtractor("8c4b00a0873a12e53b7a2384ad8eeb9f")
-data_ipstack = ipstack_data_extractor.get_ipstack_data(url)
-
-print(data_ipstack)
-print("\n")
-
 class AutonomousSystemFeaturesExtractor():
 
     def get_ASN_query(self,ip_addr):
@@ -66,31 +56,21 @@ class AutonomousSystemFeaturesExtractor():
         return whois_query
 
     #"186.192.81.5"
-    def get_as_n(self,whois_query):
-        
+    def get_col_data(self,colName, whois_query):
         for i,line in enumerate(whois_query.stdout.splitlines()):
             if ("AS" in line and "IP" in line):
                 query_header = line.split("|")
                 for j,col in enumerate(query_header):
-                    if ("AS" in col):
+                    if (colName in col):
                         break
+                return whois_query.stdout.splitlines()[i+1].split("|")[j].strip()
 
-                ASN = int(whois_query.stdout.splitlines()[i+1].split("|")[j])
-                break
-        return ASN
+
+    def get_as_n(self,whois_query):
+        return self.get_col_data("AS", whois_query)
 
     def get_as_cc(self,whois_query):
-        for i,line in enumerate(whois_query.stdout.splitlines()):
-            if ("AS" in line and "IP" in line):
-                query_header = line.split("|")
-                for j,col in enumerate(query_header):
-                    if ("CC" in col):
-                        break
-
-                CC = whois_query.stdout.splitlines()[i+1].split("|")[j].strip()
-                break
-        return CC
-
+        return self.get_col_data("CC", whois_query)
 
     def get_asn_data(self,ip_addr):
         asn_data = dict()
@@ -100,10 +80,34 @@ class AutonomousSystemFeaturesExtractor():
         asn_data['as_cc'] = self.get_as_cc(whois_query)
 
         return asn_data
-asn_data_extractor = AutonomousSystemFeaturesExtractor()
 
-data_asn = asn_data_extractor.get_asn_data(data_ipstack['ip'])
+class NetworkFeaturesExtractor(AutonomousSystemFeaturesExtractor, IpStackFeaturesExtractor):
+    def __init__(self,ipstack_apiKey):
+        super(NetworkFeaturesExtractor, self).__init__(ipstack_apiKey)
+
+    def get_ipcc_equal_ascc(self,data_asn, data_ipstack):
+        return data_asn['as_cc'] == data_ipstack['ip_cc']
+
+    def get_ip_vs_asn_data(self,data_asn, data_ipstack):
+        ip_vs_asn_data = dict()
+        ip_vs_asn_data['ipcc_equal_ascc'] = self.get_ipcc_equal_ascc(data_asn, data_ipstack)
+
+        return ip_vs_asn_data
+
+
+url = "https://www.uol.com.br/"
+print(url + "\n")
+
+teste = NetworkFeaturesExtractor("8c4b00a0873a12e53b7a2384ad8eeb9f")
+
+data_ipstack = teste.get_ipstack_data(url)
+print(data_ipstack)
+print("\n")
+
+data_asn = teste.get_asn_data(data_ipstack['ip'])
 print(data_asn)
 print("\n")
 
-
+data_meta = teste.get_ip_vs_asn_data(data_asn, data_ipstack)
+print(data_meta)
+print("\n")
