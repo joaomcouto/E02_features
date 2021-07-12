@@ -95,6 +95,21 @@ class NetworkFeaturesExtractor():
         domain.replace("www.", "")
         return domain
 
+    def get_route_hop_count(self,tracepath_query):
+        noReplyCount = 0
+        hopCount = 0
+        for i,line in enumerate(tracepath_query.stdout.splitlines()):
+            #print(line)
+            if("no reply" in line):
+                noReplyCount += 1
+            else:
+                hopCount = hopCount + noReplyCount + 1
+                noReplyCount = 0
+
+            if(noReplyCount >= 5):
+                break
+        return hopCount
+
 
 
 class SourceFeaturesExtractor(AutonomousSystemFeaturesExtractor, IpStackFeaturesExtractor, NetworkFeaturesExtractor):
