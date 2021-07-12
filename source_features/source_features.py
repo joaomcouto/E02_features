@@ -129,7 +129,18 @@ class NetworkFeaturesExtractor():
         txt_count = self.get_dns_entry_count(txt_dig_query, "TXT")
         return caa_count+txt_count
 
+    def get_network_data(self,url):
+        domain = self.get_domain_from_url(url)
+        network_data = dict()
 
+        tracepath_query = self.get_tracepath_query(domain)
+        network_data['route_hops'] = self.get_route_hop_count(tracepath_query)
+
+        caa_query = self.get_dig_query(domain, "CAA")
+        txt_query = self.get_dig_query(domain, "TXT")
+        network_data['dns_caa_txt_count'] = self.get_dns_CAA_TXT_entry_count(caa_query,txt_query)
+
+        return network_data
 
 class SourceFeaturesExtractor(AutonomousSystemFeaturesExtractor, IpStackFeaturesExtractor, NetworkFeaturesExtractor):
     def __init__(self,ipstack_apiKey):
