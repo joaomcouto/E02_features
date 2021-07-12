@@ -110,6 +110,20 @@ class NetworkFeaturesExtractor():
                 break
         return hopCount
 
+    def get_dns_entry_count(self,dig_query, entryType):
+        if("ANSWER SECTION" in dig_query.stdout):
+            answer_section = dig_query.stdout.split(";; ANSWER SECTION:")[1].split("\n;;")[0]
+        else:
+            return 0
+        #print(answer_section)
+        #print("\n")
+        entryCount = 0
+        for line in answer_section.splitlines():
+            #print(line)
+            if("\t" + entryType + "\t" in line):
+                entryCount+= 1
+        return entryCount
+            
 
 
 class SourceFeaturesExtractor(AutonomousSystemFeaturesExtractor, IpStackFeaturesExtractor, NetworkFeaturesExtractor):
