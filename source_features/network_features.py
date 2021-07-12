@@ -18,7 +18,7 @@ class IpStackFeaturesExtractor():
     def get_longitude(self,ipstack_location_dict):
         return ipstack_location_dict['longitude']
 
-    def get_domain_from_url(self,url):
+    def get_www_subdomain_from_url(self,url):
         domain = url.split("://")[1].split("/")[0]
         if ("www." in domain):
             pass
@@ -36,7 +36,7 @@ class IpStackFeaturesExtractor():
         return ipstack_location_dict['country_code']
 
     def get_ipstack_data(self, url):
-        url = self.get_domain_from_url(url)
+        url = self.get_www_subdomain_from_url(url)
         ipstack_location_dict = self.get_ipstack_location_dict(url)
         #print(ipstack_location_dict)
         ipstack_data = dict()
@@ -81,9 +81,25 @@ class AutonomousSystemFeaturesExtractor():
 
         return asn_data
 
-class NetworkFeaturesExtractor(AutonomousSystemFeaturesExtractor, IpStackFeaturesExtractor):
+class NetworkFeaturesExtractor():
+    def get_tracepath_query(self,url):
+        tracepath_query  = subprocess.run(["tracepath", "-b", url], capture_output=True, text=True)
+        return tracepath_query
+
+    def get_dig_query(self,url, entryType):
+        dig_query = subprocess.run(["dig" , url, entryType], capture_output=True, text=True)
+        return dig_query
+
+    def get_domain_from_url(self,url):
+        domain = url.split("://")[1].split("/")[0]
+        domain.replace("www.", "")
+        return domain
+
+
+
+class SourceFeaturesExtractor(AutonomousSystemFeaturesExtractor, IpStackFeaturesExtractor, NetworkFeaturesExtractor):
     def __init__(self,ipstack_apiKey):
-        super(NetworkFeaturesExtractor, self).__init__(ipstack_apiKey)
+        super(SourceFeaturesExtractor, self).__init__(ipstack_apiKey)
 
     def get_ipcc_equal_ascc(self,data_asn, data_ipstack):
         return data_asn['as_cc'] == data_ipstack['ip_cc']
@@ -95,10 +111,10 @@ class NetworkFeaturesExtractor(AutonomousSystemFeaturesExtractor, IpStackFeature
         return ip_vs_asn_data
 
 
-url = "https://www.uol.com.br/"
+url = "https://diariodopoder.com.br/coronavirus/revisao-de-estudos-sobre-ivermectina-indica-eficacia-potencial-contra-covid-19"
 print(url + "\n")
 
-teste = NetworkFeaturesExtractor("8c4b00a0873a12e53b7a2384ad8eeb9f")
+teste = SourceFeaturesExtractor("8c4b00a0873a12e53b7a2384ad8eeb9f")
 
 data_ipstack = teste.get_ipstack_data(url)
 print(data_ipstack)
@@ -111,3 +127,10 @@ print("\n")
 data_meta = teste.get_ip_vs_asn_data(data_asn, data_ipstack)
 print(data_meta)
 print("\n")
+
+data_network = teste.get_network_data(url)
+print(data_network)
+print("\n")
+
+
+
