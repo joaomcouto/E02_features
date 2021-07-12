@@ -124,6 +124,11 @@ class NetworkFeaturesExtractor():
                 entryCount+= 1
         return entryCount
             
+    def get_dns_CAA_TXT_entry_count(self, caa_dig_query, txt_dig_query):
+        caa_count = self.get_dns_entry_count(caa_dig_query, "CAA")
+        txt_count = self.get_dns_entry_count(txt_dig_query, "TXT")
+        return caa_count+txt_count
+
 
 
 class SourceFeaturesExtractor(AutonomousSystemFeaturesExtractor, IpStackFeaturesExtractor, NetworkFeaturesExtractor):
