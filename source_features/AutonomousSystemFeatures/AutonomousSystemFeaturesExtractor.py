@@ -27,7 +27,7 @@ class AutonomousSystemFeaturesExtractor():
         asn_data = dict()
         whois_query = self.get_ASN_query(ip_addr)
 
-        asn_data['as_n'] = self.get_as_n(whois_query)
-        asn_data['as_cc'] = self.get_as_cc(whois_query)
+        asn_data['subdomain_as_n'] = self.get_as_n(whois_query)
+        asn_data['subdomain_as_cc'] = self.get_as_cc(whois_query)
 
         return asn_data

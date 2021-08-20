@@ -1,4 +1,6 @@
 import subprocess
+#https://github.com/john-kurkowski/tldextract
+import tldextract
 
 class NetworkFeaturesExtractor():
     def get_tracepath_query(self,url):
@@ -9,10 +11,16 @@ class NetworkFeaturesExtractor():
         dig_query = subprocess.run(["dig" , url, entryType], capture_output=True, text=True)
         return dig_query
 
-    def get_domain_from_url(self,url):
-        domain = url.split("://")[1].split("/")[0]
-        domain.replace("www.", "")
-        return domain
+    def get_main_domain_from_url(self,url):
+        dissectedUrl = tldextract.extract(url)
+        main_domain = dissectedUrl.domain+"."+dissectedUrl.suffix
+        #print("Main domain usado para o network feaures", main_domain , "\n")
+        return main_domain
+
+        # domain = url.split("://")[1].split("/")[0]
+        # domain = domain.replace("www.", "")
+        # print("Domain usado para o network feaures", domain , "\n")
+        # return domain
 
     def get_route_hop_count(self,tracepath_query):
         noReplyCount = 0
@@ -49,14 +57,14 @@ class NetworkFeaturesExtractor():
         return caa_count+txt_count
 
     def get_network_data(self,url):
-        domain = self.get_domain_from_url(url)
+        domain = self.get_main_domain_from_url(url)
         network_data = dict()
 
         tracepath_query = self.get_tracepath_query(domain)
-        network_data['route_hops'] = self.get_route_hop_count(tracepath_query)
+        network_data['domain_route_hops'] = self.get_route_hop_count(tracepath_query)
 
         caa_query = self.get_dig_query(domain, "CAA")
         txt_query = self.get_dig_query(domain, "TXT")
-        network_data['dns_caa_txt_count'] = self.get_dns_CAA_TXT_entry_count(caa_query,txt_query)
+        network_data['domain_dns_caa_txt_count'] = self.get_dns_CAA_TXT_entry_count(caa_query,txt_query)
 
         return network_data
