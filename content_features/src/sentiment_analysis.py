@@ -5,7 +5,8 @@ from google.cloud import language_v1
 from google.oauth2 import service_account
 
 def get_cred():
-	credentials = service_account.Credentials.from_service_account_file("api_auth/ic-analise-de-sentimentos-7ee361a878de.json")
+	key_path = os.environ.get('SENTIMENT_ANALYSIS_API_KEY')
+	credentials = service_account.Credentials.from_service_account_file(key_path)
 	return credentials
 
 def analyze_score(val,mag):

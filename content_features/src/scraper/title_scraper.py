@@ -114,4 +114,3 @@ def teste():
     print("Number of contained: ", contained_cnt)
     print("Number of different: ", different_cnt)
 
-teste()

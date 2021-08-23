@@ -6,14 +6,37 @@ import sys
 from count_exclamation import count_exclamation
 from count_hashtags import count_hashtags
 from count_uppercase_words import count_uppercase_words
-# from toxicity_threat_insult import toxicity_threat_insult
+from toxicity_threat_insult import toxicity_threat_insult
 from LIWC_metrics import LIWC_metrics
 import text_metrics
-from sentiment_analysis.py import sample_analyze_sentiment as SentimentAnalyzer
+from sentiment_analysis import sample_analyze_sentiment as SentimentAnalyzer
+from scraper.title_scraper import get_title
 
 
 def run_titles(args):
-    pass
+    with open(os.environ.get("FAKE_NEWS_URL_FILE"),'r') as f:
+        for line in f:
+            dic = json.loads(line)
+            print(dic['fonte'].upper())
+            L = []
+            for url in dic['urls']:
+                data = {}
+                data['url'] = url
+                data['fonte'] = dic['fonte']
+                try:
+                    data['Titulo'] = get_title(url)
+                    print(url+'\n',data['Titulo'])
+                except Exception as E:
+                    data['Problema'] = E
+                    print("!!@ ",data, "@!!")
+                L.append(data)
+                
+
+            with open('../dados/titles_file.txt','a') as f:
+                for l in L:
+                    f.write(json.dumps(l,ensure_ascii=False)+'\n')
+
+                    
 
 
 def run_features(args):
@@ -31,8 +54,8 @@ def run_features(args):
     for news_type in ['fake', 'true']:
         for title in titles[news_type]:
             aux = {}
-            # toxicity = toxicity_threat_insult(title)
-            # aux.update(toxicity)
+            toxicity = toxicity_threat_insult(title)
+            aux.update(toxicity)
             sentiment = SentimentAnalyzer(title)
             exclamation = count_exclamation(title)
             aux.update(exclamation)
