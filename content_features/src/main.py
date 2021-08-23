@@ -6,7 +6,8 @@ import sys
 from count_exclamation import count_exclamation
 from count_hashtags import count_hashtags
 from count_uppercase_words import count_uppercase_words
-# from toxicity_threat_insult import toxicity_threat_insult
+#from toxicity_threat_insult import toxicity_threat_insult
+from LIWC_metrics import LIWC_metrics
 import text_metrics
 from sentiment_analysis.py import sample_analyze_sentiment as SentimentAnalyzer
 
@@ -37,6 +38,8 @@ def main(args):
             aux.update(hashtags)
             text = text_metrics.run(title)
             aux.update(text)
+            LIWC = LIWC_metrics(title)
+            aux.update(LIWC)
             metrics[news_type][title.strip()] = aux
 
     # Salvando dados gerados

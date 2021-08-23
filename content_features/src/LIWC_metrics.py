@@ -77,5 +77,3 @@ def LIWC_metrics(text):
     for key, value in liwc_calculated.items():
         liwc_scores[key] = value
     return liwc_scores
-
-#print(LIWC_metrics("Alemanha confirma 1º caso de coronavírus em Starnberg"))
