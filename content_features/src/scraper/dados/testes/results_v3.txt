@@ -1,0 +1,198 @@
+TIME:  4.4849584102630615
+ORIGIINAL:
+ Novo coronavírus: Tem algo errado com esse vírus da Covid19!
+SCRAPED:
+ Novo coronavírus: Tem algo errado com esse vírus da Covid19! – Adventistas.Com
+---DIF:  http://www.adventistas.com/2020/04/02/novo-coronavirus-tem-algo-errado-com-esse-virus-da-covid19/
+
+TIME:  1.5703883171081543
+ORIGIINAL:
+ Prefeitura de Sorocaba divulga levantamento preliminar sobre tratamento precoce
+SCRAPED:
+ Prefeitura de Sorocaba divulga levantamento preliminar sobre tratamento precoce
+
+TIME:  6.821759939193726
+ORIGIINAL:
+ Todos infectados pelo covid 19 estão curados em Blumenau-Santa Catarina, dentre eles um idoso de 72 anos
+SCRAPED:
+ Todos infectados pelo covid 19 estão curados em Blumenau-Santa Catarina, dentre eles um idoso de 72 anos – A Trombeta
+---DIF:  http://www.atrombetanews.com.br/2020/03/29/todos-infectados-pelo-covid-19-estao-curados-em-blumenau-santa-catarina-dentre-eles-um-idoso-de-72-anos/?fbclid=IwAR1ePn7ka554HfNuqv8jTCVJFoKUqASAo4XGIMKGdnvIIhSiJezMWfU65q0
+
+TIME:  1.1376690864562988
+ORIGIINAL:
+ Vacinas Causam 600 Novos Casos De Doenças Oculares E Deixam 5 Pessoas Cegas, De Acordo Com O Governo Do Reino Unido
+SCRAPED:
+ Vacinas Causam 600 Novos Casos De Doenças Oculares E Deixam 5 Pessoas Cegas, De Acordo Com O Governo Do Reino Unido – A Trombeta
+---DIF:  https://atrombetanews.com.br/2021/02/24/vacinas-causam-600-novos-casos-de-doencas-oculares-e-deixam-5-pessoas-cegas-de-acordo-com-o-governo-do-reino-unido/
+
+TIME:  3.655428409576416
+ORIGIINAL:
+ Médicos europeus pedem uso urgente da ivermectina no tratamento contra a Covid-19; vídeo
+SCRAPED:
+ Médicos europeus pedem uso urgente da ivermectina no tratamento contra a Covid-19; vídeo – A Trombeta
+---DIF:  https://atrombetanews.com.br/2021/03/12/medicos-europeus-pedem-uso-urgente-da-ivermectina-no-tratamento-contra-a-covid-19-video
+
+TIME:  1.4906723499298096
+ORIGIINAL:
+ Avanço: Hospital no Piauí cura pessoas da covid-19 e esvazia UTIs com uso de cloroquina
+SCRAPED:
+ Avanço: Hospital no Piauí cura pessoas da covid-19 e esvazia UTIs com uso de cloroquina
+
+TIME:  2.192979335784912
+ORIGIINAL:
+ ÚLTIMO MINUTO: Washington Post confirma a origem do paciente zero do coronavírus
+SCRAPED:
+ ÚLTIMO MINUTO: Washington Post confirma a origem do paciente zero do coronavírus
+
+TIME:  2.519273042678833
+ORIGIINAL:
+ Estudo da Universidade de Tel Aviv: Pessoas Vacinadas Tem Oito Vezes Mais Chances de Contrair Variante do Coronavírus
+SCRAPED:
+ Estudo da Universidade de Tel Aviv: Pessoas Vacinadas Tem Oito Vezes Mais Chances de Contrair Variante do Coronavírus
+
+TIME:  2.3826024532318115
+ORIGIINAL:
+ Partido Comunista Chinês Oferece Ajuda Milionária Ao Grupo Terrorista Hamas
+SCRAPED:
+ Partido Comunista Chinês Oferece Ajuda Milionária Ao Grupo Terrorista Hamas
+
+TIME:  4.341497182846069
+ORIGIINAL:
+ Revisão de estudos sobre ivermectina indica eficácia potencial contra Covid-19
+SCRAPED:
+ Revisão de estudos sobre ivermectina indica eficácia potencial contra Covid-19
+
+TIME:  4.523974895477295
+ORIGIINAL:
+ Brasil é o quinto país que mais vacina desde o dia 17, início da imunização
+SCRAPED:
+ Brasil é o quinto país que mais vacina desde o dia 17, início da imunização
+
+TIME:  2.0820038318634033
+ORIGIINAL:
+ Anvisa registra 26 novos óbitos por vacinas nas últimas 24 horas
+SCRAPED:
+ Anvisa registra 26 novos óbitos por vacinas nas últimas 24 horas
+
+TIME:  2.30340576171875
+ORIGIINAL:
+ Banco Mundial classifica o Brasil como melhor país no combate ao Coronavírus
+SCRAPED:
+ Banco Mundial classifica o Brasil como melhor país no combate ao Coronavírus
+
+TIME:  2.114910364151001
+ORIGIINAL:
+ Renner fechará todas lojas no Brasil
+SCRAPED:
+ Renner fechará todas lojas no Brasil
+
+TIME:  7.856925010681152
+ORIGIINAL:
+ Europa começa a avaliar se aprova ou não uso da CoronaVac
+SCRAPED:
+ Europa começa a avaliar se aprova ou não uso da CoronaVac
+
+TIME:  1.9454421997070312
+ORIGIINAL:
+ Israel sai na frente e já tem vacina contra o (COVID-19) coronavírus (vídeo)
+SCRAPED:
+ Israel sai na frente e já tem vacina contra o (COVID-19) coronavírus (vídeo)
+
+TIME:  0.7742371559143066
+ORIGIINAL:
+ Roberto Kalil reforça testemunho sobre a eficácia da cloroquina no combate ao Coronavírus
+SCRAPED:
+ Roberto Kalil reforça testemunho sobre a eficácia da cloroquina no combate ao Coronavírus
+
+TIME:  1.0996127128601074
+ORIGIINAL:
+ ALERTA! Hospital São Domingos registra caso de criança com Coronavírus em São Luís
+SCRAPED:
+ ALERTA! Hospital São Domingos registra caso de criança com Coronavírus em São Luís
+
+TIME:  1.536668062210083
+ORIGIINAL:
+ Cuba anuncia que já fabricou a vacina contra o coronavírus
+SCRAPED:
+ Olho Aberto Paraná: Cuba anuncia que já fabricou a vacina contra o coronavírus
+---DIF:  https://olhoabertopr.blogspot.com/2020/03/cuba-anuncia-que-ja-fabricou-vacina.html?fbclid=IwAR342c_F4F9DfO7t4ZM66AwmIWUMMaJLwX3jbennQauPMvLEKsSv1HE-_0U
+
+TIME:  2.9883015155792236
+ORIGIINAL:
+ PACIENTE INTERNADA COM COVID RECEBE INALAÇÃO COM HIDROXICLOROQUINA E MELHORA IMEDIATAMENTE
+SCRAPED:
+ PACIENTE INTERNADA COM COVID RECEBE INALAÇÃO COM HIDROXICLOROQUINA E MELHORA IMEDIATAMENTE
+
+TIME:  5.859563589096069
+ORIGIINAL:
+ Alemanha envia cobrança de 130 bilhões de libras à China por danos causados pelo coronavírus
+SCRAPED:
+ Alemanha envia cobrança de 130 bilhões de libras à China por danos causados pelo coronavírus
+
+TIME:  1.2825729846954346
+ORIGIINAL:
+ Ivermectina reduziu internações por covid na Cidade do México
+SCRAPED:
+ Ivermectina reduziu internações por covid na Cidade do México
+
+TIME:  2.1345956325531006
+ORIGIINAL:
+ Detento solto por medo do Coronavírus é preso com grande quantidade de drogas e armas
+SCRAPED:
+ Detento solto por medo do Coronavírus é preso com grande quantidade de drogas e armas
+
+TIME:  3.0473387241363525
+ORIGIINAL:
+ OMS recua e diz que governos devem pensar em quem precisa garantir o pão de cada dia
+SCRAPED:
+ OMS recua e diz que governos devem pensar em quem precisa garantir o pão de cada dia
+
+TIME:  2.2179837226867676
+ORIGIINAL:
+ Joe Biden recebeu as perguntas do debate desta noite com antecedência
+SCRAPED:
+ Joe Biden recebeu as perguntas do debate desta noite com antecedência
+
+TIME:  2.0551867485046387
+ORIGIINAL:
+ Bolsonaro critica política econômica da Argentina, Venezuela e Cuba
+SCRAPED:
+ Bolsonaro critica política econômica da Argentina, Venezuela e Cuba
+
+TIME:  2.259824752807617
+ORIGIINAL:
+ Ministro da Educação, Milton Ribeiro, recebe alta do hospital após tratamento com Hidroxicloroquina e Antibióticos
+SCRAPED:
+ Ministro da Educação, Milton Ribeiro, recebe alta do hospital após tratamento com Hidroxicloroquina e Antibióticos
+
+TIME:  1.8478600978851318
+ORIGIINAL:
+ BOMBA: DOCUMENTOS MOSTRAM CORONAVÍRUS SENDO TESTADO COMO ARMA BIOLÓGICA 5 ANOS ANTES DA PANDEMIA POR CHINESES
+SCRAPED:
+ BOMBA: DOCUMENTOS MOSTRAM CORONAVÍRUS SENDO TESTADO COMO ARMA BIOLÓGICA 5 ANOS ANTES DA PANDEMIA POR CHINESES
+
+TIME:  4.291879892349243
+ORIGIINAL:
+ Treinta por ciento de los vacunados morirá en tres meses, asegura doctora Sherri Tempenny
+SCRAPED:
+ Treinta por ciento de los vacunados morirá en tres meses, asegura doctora Sherri Tempenny
+
+TIME:  4.707617998123169
+ORIGIINAL:
+ Neumonía bacteriana, un peligro latente por el uso prolongado de mascarillas
+SCRAPED:
+ Neumonía bacteriana, un peligro latente por el uso prolongado de mascarillas
+
+TIME:  2.8481292724609375
+ORIGIINAL:
+ Cientistas pediram desculpas ao mundo por estudo que desqualificou o uso da Cloroquina no combate a pandemia
+SCRAPED:
+ Cientistas pediram desculpas ao mundo por estudo que desqualificou o uso da Cloroquina no combate a pandemia
+
+
+----------
+RESULTS FOR TITLES:
+Average time for consult:  2.915331079113868
+Number of equal:  26
+Number of contained:  0
+Number of different:  5

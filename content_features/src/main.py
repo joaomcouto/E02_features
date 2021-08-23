@@ -6,13 +6,17 @@ import sys
 from count_exclamation import count_exclamation
 from count_hashtags import count_hashtags
 from count_uppercase_words import count_uppercase_words
-#from toxicity_threat_insult import toxicity_threat_insult
+# from toxicity_threat_insult import toxicity_threat_insult
 from LIWC_metrics import LIWC_metrics
 import text_metrics
 from sentiment_analysis.py import sample_analyze_sentiment as SentimentAnalyzer
 
 
-def main(args):
+def run_titles(args):
+    pass
+
+
+def run_features(args):
     # Inicializando estruturas de dados
     metrics = {'fake': {}, 'true': {}}
     titles = {}
@@ -53,4 +57,11 @@ def main(args):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1:])
+    args = sys.argv[1:]
+    function = args[0]
+    if function == 'features':
+        run_features(args[1:])
+    elif function == 'titles':
+        run_titles(args[1:])
+    else:
+        print("Por favor selecione qual metodo quer usar")
