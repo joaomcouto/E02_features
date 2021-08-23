@@ -6,7 +6,9 @@ import sys
 from count_exclamation import count_exclamation
 from count_hashtags import count_hashtags
 from count_uppercase_words import count_uppercase_words
-from toxicity_threat_insult import toxicity_threat_insult
+# from toxicity_threat_insult import toxicity_threat_insult
+import text_metrics
+from sentiment_analysis.py import sample_analyze_sentiment as SentimentAnalyzer
 
 
 def main(args):
@@ -24,14 +26,17 @@ def main(args):
     for news_type in ['fake', 'true']:
         for title in titles[news_type]:
             aux = {}
-            toxicity = toxicity_threat_insult(title)
-            aux.update(toxicity)
+            # toxicity = toxicity_threat_insult(title)
+            # aux.update(toxicity)
+            sentiment = SentimentAnalyzer(title)
             exclamation = count_exclamation(title)
             aux.update(exclamation)
             uppercase = count_uppercase_words(title)
             aux.update(uppercase)
             hashtags = count_hashtags(title)
             aux.update(hashtags)
+            text = text_metrics.run(title)
+            aux.update(text)
             metrics[news_type][title.strip()] = aux
 
     # Salvando dados gerados

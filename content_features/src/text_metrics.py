@@ -91,7 +91,7 @@ def extract_values(out):
 	word_dict['%_nomilizations']  = float(get_int(word[3],1,True)/100)
 
 	return read_dict,sent_dict,word_dict
-import sys
+
 
 def text_metrics(text):
 
@@ -110,20 +110,26 @@ def text_metrics(text):
 	metrics = subprocess.run(["./../executaveis/text_metrics.x", "-L", "pt"], input=text, text=True, capture_output=True).stdout
 	return metrics
 
+
 def metrics_from_file(file_path,file_name):
 	with open(file_path,'r') as file:
 		for line in file:
 			run(line,file_name)
 
 #file_name: indicar o nome para identificar na pasta de resultados			
-def run(text,file_name):
+def run(text):
+	D = {}
 	#Dicionarios com as metricas
 	try:
 		readability ,sentence ,word = extract_values(text_metrics(text))
+		D.update(readability)
+		D.update(sentence)
+		D.update(word)
 	except:
-		print('Sentença não encontrada\n Frase: ',text)
-		return
-
+		print('Sentença não encontrada (metricas textuais)\n Frase: ',text)
+		return {}
+	return D
+"""
 	with open('../resultados/'+file_name+'_readability_metrics.txt','a') as readability_file:
 		readability['string'] = text.strip()
 		readability_file.write(json.dumps(readability, ensure_ascii=False) + '\n')
@@ -134,7 +140,9 @@ def run(text,file_name):
 
 	with open('../resultados/'+file_name+'_words_metrics.txt','a') as word_file:
 		word['string'] = text.strip()
-		word_file.write(json.dumps(word, ensure_ascii=False) + '\n')	
+		word_file.write(json.dumps(word, ensure_ascii=False) + '\n')
+"""
+
 
 
 # metrics_from_file('../dados/fake_news.txt','fake_news')
