@@ -24,12 +24,18 @@ def run_titles(args):
                 data['url'] = url
                 data['fonte'] = dic['fonte']
                 try:
-                    data['Titulo'] = get_title(url)
+                    data['Titulo'] = get_title(url).strip()
                     print(url+'\n',data['Titulo'])
+                    if data['Titulo'] == '':
+                        raise NullTitle
+                    L.append(data)
                 except Exception as E:
-                    data['Problema'] = E
-                    print("!!@ ",data, "@!!")
-                L.append(data)
+                    with(open('../dados/excecoesColeta.txt','a')) as file:
+                        data['Problema'] = str(E)
+                        print("!!@ ",data, "@!!")
+                        file.write(json.dumps(data,ensure_ascii=False)+'\n')
+
+                
                 
 
             with open('../dados/titles_file.txt','a') as f:

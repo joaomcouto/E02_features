@@ -1,0 +1,756 @@
+NATURALNEWS
+http://tv.naturalnews.com/v.asp
+ Brighteon
+
+PLANTAOBRASIL.NET
+__uso selenium
+http://plantaobrasil.net/news.asp
+ Internal server error.
+__uso selenium
+https://plantaobrasil.net/news.asp
+ Internal server error.
+https://plus.google.com/up/
+ Fazer login nas Contas do Google
+
+DIARIODOBRASIL.ORG
+__uso selenium
+http://www.diariodobrasil.org/voce-sabia-que-lula-doou-r-25-milhoes-ao-movimento-hamas-atraves-de-decreto/
+ OPS …
+__uso selenium
+https://www.diariodobrasil.org/dinheiro-do-trafico-doleiro-preso-pela-pf-abre-o-bico-e-cita-4-senadores-da-republica/
+ OPS …
+__uso selenium
+http://www.diariodobrasil.org/internauta-resgata-entrevista-de-lula-elogiando-hitler-em-1979-estava-ao-lado-dos-menos-favorecidos/
+ OPS …
+
+MISES.ORG.BR
+https://www.mises.org.br/BlogPost.aspx
+ Mises Brasil
+
+OPINIAOCRITICA.COM.BR
+__uso selenium
+https://www.opiniaocritica.com.br/2019/04/suica-dinheiro-lava-jato-brasil.html
+ Comentário, notícias e comportamento
+__uso selenium
+https://www.opiniaocritica.com.br/2018/08/ataque-da-midia-contra-bolsonaro-2018.html
+ Comentário, notícias e comportamento
+__uso selenium
+https://www.opiniaocritica.com.br/2019/05/dar-palmada-nos-filhos-educa.html
+ Comentário, notícias e comportamento
+__uso selenium
+https://www.opiniaocritica.com.br/noticia/830/barroso-sobre-2o-instancia-lo-mundo-nos-ve-como-um-paraiso-de-corruptosr
+ Comentário, notícias e comportamento
+__uso selenium
+https://www.opiniaocritica.com.br/noticia/154/sob-ataque-por-todos-os-lados-sergio-moro-pode-ser-o-proximo-presidente-do-brasil
+ Comentário, notícias e comportamento
+__uso selenium
+https://www.opiniaocritica.com.br/noticia/133/detentos-devem-trabalhar-para-qfinanciar-os-presidiosq-diz-sergio-moro-a-ratinho
+ Comentário, notícias e comportamento
+
+JORNALDOPAIS.COM.BR
+__uso selenium
+http://www.jornaldopais.com.br/abismo-sem-fim-r-10-trilhoes-foram-roubados-do-povo-brasileiro-diz-sergio-moro/
+ Página não encontrada
+__uso selenium
+http://www.jornaldopais.com.br/pf-revela-lula-e-milionario-o-ex-%c2%adpresidente-mais-rico-em-toda-a-historia-do-pais-2/
+ Página não encontrada
+https://www.jornaldopais.com.br/
+ Jornal do Pais
+https://www.jornaldopais.com.br/emilio-odebrecht-lula-sempre-traiu-a-classe-trabalhadora-desde-os-anos-70/amp/
+ EMÍLIO ODEBRECHT: ”Lula sempre traiu a classe trabalhadora desde os anos 70”
+__uso selenium
+http://www.jornaldopais.com.br/exercito-abraca-causa-de-sergio-moro-e-diz-que-guerra-a-corrupcao-e-de-todos/
+ Página não encontrada
+__uso selenium
+https://www.jornaldopais.com.br/poupancinha-do-operario-descobertos-us-108-milhoes-de-lula-em-luxemburgo/amp/
+ Página não encontrada
+__uso selenium
+https://www.jornaldopais.com.br/aecio-neves-envolvido-em-esquema-milionario-de-extracao-de-niobio-em-mg/amp/
+ Página não encontrada
+__uso selenium
+https://www.jornaldopais.com.br/irmao-de-celso-daniel-quem-mandou-matar-meu-irmao-foi-cupula-do-pt-veja-aqui/
+ Página não encontrada
+
+PORTALBR7.COM
+https://portalbr7.com/2019/06/09/o-massacre-do-menino-rhuan-e-o-silencio-da-grande-midia/
+ Página não encontrada
+
+FOLHAPOLITICA.ORG - todos os titulos vem com 'Folha Politica:' no inicio
+
+IMPRENSABRASIL,COM.BR
+https://imprensabrasil.com.br/
+ Imprensa de Verdade!
+https://imprensabrasil.com.br/2020/08/25/moro-perde-61-de-popularidade-na-web-e-se-torna-uma-pessoa-irrelevante-aponta-agencia/
+ Imprensa de Verdade!
+
+GOSPELPRIME.COM.BR
+__uso selenium
+https://www.gospelprime.com.br/deputada-quer-proibir-dancas-obscenas-e-vulgares-dentro-das-escolas/
+ Página não encontrada
+https://noticias.gospelprime.com.br/cristaos-crucificados-esmagados-coreia-do-norte/
+ Igreja, vida cristã, opinião e estudos bíblicos
+https://noticias.gospelprime.com.br/haddad-afirma-que-o-kit-gay-sera-reformulado-e-lancado-ate-fim-do-ano/
+ Igreja, vida cristã, opinião e estudos bíblicos
+https://noticias.gospelprime.com.br/protesto-esquerdista-em-universidade-tem-defesa-da-morte-aos-cristaos/
+ Igreja, vida cristã, opinião e estudos bíblicos
+__uso selenium
+https://www.gospelprime.com.br/conheca-os-deputados-evangelicos-que-ajudaram-a-tirar-o-coaf-de-moro/
+ Página não encontrada
+__uso selenium
+https://www.gospelprime.com.br/pessimistas-me-desculpem-mas-o-brasil-vai-dar-certo-diz-ministro/
+ Página não encontrada
+https://noticias.gospelprime.com.br/pastor-uniao-evangelicos-catolicos-vencer-esquerda/
+ Igreja, vida cristã, opinião e estudos bíblicos
+https://noticias.gospelprime.com.br/confederacao-de-pastores-do-brasil-decide-apoiar-bolsonaro/
+ Igreja, vida cristã, opinião e estudos bíblicos
+https://noticias.gospelprime.com.br/haddad-versiculo-inexistente-roda-viva/
+ Igreja, vida cristã, opinião e estudos bíblicos
+https://noticias.gospelprime.com.br/haddad-tira-cobertores-mendigos-doados-igrejas/
+ Igreja, vida cristã, opinião e estudos bíblicos
+
+CONSTANTCONTACT.COM
+__uso selenium
+http://web-extract.constantcontact.com/v1/social_annotation
+ 
+http://campaign.r20.constantcontact.com/render
+ Constant Contact : Campaign Hosting Service
+http://events.r20.constantcontact.com/register/event
+ Error
+http://survey.constantcontact.com/survey/a07edrrxj2qiyls1ev5/start
+ Survey : Survey is closed
+__uso selenium
+http://web-extract.constantcontact.com/v1/social_annotation_v2
+ 
+https://files.constantcontact.com/daa02ded201/9556d7b6-e243-495e-8b0f-53095aa428ec.pdf
+ 
+http://events.constantcontact.com/register/event
+ Error
+__uso selenium
+http://myemail.constantcontact.com/Sweet-Pea-Sustainability-Project.html
+ 
+https://events.r20.constantcontact.com/register/eventReg
+ Error
+http://survey.constantcontact.com/survey/a07edbg1aj9iu4hxs97/start
+ Survey : Survey is closed
+
+PRESIDENTEBOLSONARO.COM (capturou alguns)
+http://presidentebolsonaro.com
+ Presidente Bolsonaro -
+https://presidentebolsonaro.com/confirmado-400-mil-servidores-serao-demitidos-por-roubar-auxilio-justa-causa/
+ Presidente Bolsonaro -
+https://presidentebolsonaro.com/que-linda-justica-bloqueia-bens-de-simone-tebet-por-obra-em-tres-lagoas/
+ Presidente Bolsonaro -
+http://PresidenteBolsonaro.com
+ Presidente Bolsonaro -
+https://presidentebolsonaro.com/bolsonaro-entra-para-o-guiness-book-total-de-1324-523-motociclistas/
+ Presidente Bolsonaro -
+https://presidentebolsonaro.com/
+ Presidente Bolsonaro -
+
+ESQUERDADIARIO.COM.BR
+http://www.esquerdadiario.com.br/Perfis-e-crimes-dos-61-senadores-que-votaram-o-golpe-institucional
+ 
+DIARIODOCENTRODOMUNDO.COM.BR
+https://www.diariodocentrodomundo.com.br/
+ O que interessa e nada mais
+
+PORTALSBN.COM.BR (capturou alguns)
+https://www.portalsbn.com.br/enquete/vote-voce-e-a-favor-do-impeachment-de-bolsonaro
+ Vote: você é a favor do impeachment de Bolsonaro?
+https://www.portalsbn.com.br/artigo/vote-voce-e-a-favor-do-impeachment-de-bolsonaro
+ Ooops. Conteúdo indisponível :/
+http://portalsbn.com.br/enquete/vote-v
+ Ooops. Conteúdo indisponível :/
+https://portalsbn.com.br/enquete/vote-voce-e-a-favor-do-impeachment-de-bolsonaro
+ Vote: você é a favor do impeachment de Bolsonaro?
+https://www.portalsbn.com.br/enquete/vote-em-quem-voce-votaria-para-presidente-se-a-eleicao-fosse-hoje
+ Vote: Em quem você votaria para presidente se a eleição fosse hoje?
+https://portalsbn.com.br/noticia/e-questao-de-tempo-para-manifestacoes-chegarem-ao-brasil-diz-mercadante-sobre-o-chile
+ Ooops. Conteúdo indisponível :/
+https://www.portalsbn.com.br
+ Sistema Brasileiro de Notícias
+https://portalsbn.com.br/noticia/donald-trump-confirma-morte-de-lider-do-estado-islamico
+ Ooops. Conteúdo indisponível :/
+https://portalsbn.com.br/noticia/bebe-nasceu-em-banheiro-de-uma-maternidade
+ Ooops. Conteúdo indisponível :/
+https://www.portalsbn.com.br/noticia/prefeito-temoteo-brito-e-alvo-de-investigacao-por-ilegalidades-crime-ambiental-e-fraudes-1
+ Ooops. Conteúdo indisponível :/
+
+SOROCABANICES.COM.BR
+__uso selenium
+https://sorocabanices.com.br/2019/05/25/dar-palmada-nos-filhos-educa-sim-e-faz-muita-falta-na-atual-geracao-entenda/
+ Página não encontrada – SorocabaniceS
+
+ESMAELMORAIS.COM.BR
+https://www.esmaelmorais.com.br/
+ Blog do Esmael
+
+GREENMEDINFO.COM
+http://GreenMedInfo.com
+ GreenMedInfo - The World's Natural Health Resource
+
+MBLNEWS.ORG
+https://mblnews.org/noticia/veja-quem-sao-os-172-deputados-que-pediram-aposentadoria-especial-as-custas-do-contribuinte/
+ Movimento Brasil Livre
+https://www.mblnews.org/riodejaneiro/witzel-nega-seguranca-armada-para-taliria-petrone/
+ Movimento Brasil Livre
+https://mblnews.org/noticia/pt-psol-e-pcdob-obstruem-pec-de-prisao-em-segunda-instancia-na-camara/
+ Movimento Brasil Livre
+https://mblnews.org/noticia/so-43-de-594-parlamentares-abrem-mao-do-auxilio-moradia/
+ Movimento Brasil Livre
+https://mblnews.org/noticia/alem-de-agatha-outros-2-pms-tambem-foram-mortos-neste-final-de-semana-no-rj/
+ Movimento Brasil Livre
+https://www.mblnews.org/noticia/os-monstros-que-mutilaram-e-assassinaram-rhuan-e-porque-a-grande-midia-se-calou/
+ Movimento Brasil Livre
+https://mblnews.org/noticia/vitoria-stf-nega-pedido-de-habeas-corpus-para-lula/
+ Movimento Brasil Livre
+https://mblnews.org/noticia/militar-detido-com-39-quilos-de-cocaina-ja-fez-voos-com-dilma-e-temer/
+ Movimento Brasil Livre
+https://www.mblnews.org/tse-proibe-haddad-de-espalhar-mentira-sobre-bolsonaro/
+ Movimento Brasil Livre
+https://www.mblnews.org/notas/onibus-fazendo-propaganda-ilegal-para-haddad-na-bahia-podem-levar-a-cassacao-da-chapa/
+ Movimento Brasil Livre
+
+OALERTA.COM.BR
+__uso selenium
+https://oalerta.com.br/2019/12/28/piada-com-gay-e-homofobia-mas-piada-com-jesus-gay-e-arte/
+ 
+__uso selenium
+https://oalerta.com.br/2019/09/17/vai-tomar-o-pais-protesto-dia-25-exige-impeachment-de-gilmar-e-toffoli/
+ 
+__uso selenium
+https://oalerta.com.br/2019/10/09/ecologistas-ignoram-tragedia-em-praia-do-nordeste-ao-saber-que-culpa-nao-e-de-bolsonaro/
+ 
+__uso selenium
+https://oalerta.com.br/2019/10/28/palocci-denuncia-roubo-de-meio-trilhao-mas-jornais-so-falam-de-queiroz/
+ 
+__uso selenium
+https://oalerta.com.br/2019/10/07/palocci-entrega-de-lula-a-toffolli-mas-silencio-da-midia-assusta/
+ 
+__uso selenium
+https://oalerta.com.br/2019/12/06/fundao-eleitoral-com-dinheiro-da-saude-pode-causar-revolucao-popular/
+ 
+__uso selenium
+https://oalerta.com.br/2019/12/11/guedes-poe-bndes-pra-financiar-esgoto-e-faz-o-maior-golaco-no-governo-ate-agora/
+ 
+__uso selenium
+https://oalerta.com.br/2019/11/12/bolivia-e-peru-mostram-que-mudanca-comeca-por-batida-no-supremo-tribunal/
+ 
+__uso selenium
+https://oalerta.com.br/2019/10/24/do-grafeno-a-avioes-brasil-se-torna-o-maior-comerciante-do-planeta/
+ 
+__uso selenium
+https://oalerta.com.br/2019/06/14/william-waack-revela-globo-se-destruiu-com-a-esquerda/
+ 
+OTVFOCO.COM.BR
+__uso selenium
+https://www.otvfoco.com.br/
+ Please Wait...
+__uso selenium
+https://www.otvfoco.com.br/record-vence-a-globo-durante-toda-a-manha-do-sabado-26-e-alcanca-1o-lugar-em-sp/
+ Please Wait...
+__uso selenium
+https://www.otvfoco.com.br/miguel-falabella-surpreende-e-decide-se-demitir-da-globo-quero-liberdade/
+ Please Wait...
+__uso selenium
+https://www.otvfoco.com.br/fatima-bernardes-leva-mae-menina-agatha-em-estado-de-panico-explora-morte-por-audiencia-e-e-detonada/
+ Please Wait...
+__uso selenium
+https://www.otvfoco.com.br/will-smith-e-diagnosticado-com-cancer-apos-exame-clinico-e-entra-em-estado-de-desespero-com-noticia/
+ Please Wait...
+__uso selenium
+https://www.otvfoco.com.br/bolsonaro-faz-nova-vitima-e-anitta-tem-carreira-gravemente-prejudicada-pelos-militantes/
+ Please Wait...
+__uso selenium
+https://www.otvfoco.com.br/dony-de-nuccio-se-vinga-da-globo-e-anunciado-como-novo-contratado-do-sbt-e-volta-triunfal-e-definida/
+ Please Wait...
+__uso selenium
+https://www.otvfoco.com.br/xuxa-descobre-que-sasha-usa-drogas-ilicitas-e-desabafa-sobre-a-atual-situacao-que-a-filha-se-encontra/
+ Please Wait...
+__uso selenium
+https://www.otvfoco.com.br/luciano-huck-e-7-famosos-da-globo-se-entregam-ao-uso-da-maconha-e-defendem-a-droga-com-naturalidade-nao-faz-mal-a-ninguem/
+ Please Wait...
+__uso selenium
+https://www.otvfoco.com.br/alex-escobar-da-globo-humilha-o-proprio-filho-gay-que-tenta-suicidio-e-implora-por-ajuda-monstro/
+ Please Wait...
+
+CRITICANACIONAL.COM.BR
+__uso selenium
+https://noticias.criticanacional.com.br/2020/08/21/china-ja-utiliza-cloroquina-desde-fevereiro-e-imprensa-brasileira-omitiu-essa-informacao/
+ 404 Not Found
+
+FOLHAPOLITICA.COM
+__uso selenium
+http://www.folhadapolitica.com/2017/03/esposa-de-dilma-roussef-desviou-r-45.html
+ Folha da Política
+
+CIENCIAYSALUDNATURAL.COM
+https://cienciaysaludnatural.com/
+ CienciaySaludNatural.com
+https://red.cienciaysaludnatural.com/
+ 
+http://CienciaySaludNatural.com
+ CienciaySaludNatural.com
+
+JORNALBRASIL21.COM
+https://www.jornal21brasil.com.br/2019/08/carta-enviada-pedindo-socorro-aos.html
+ JORNAL 21 BRASIL
+
+JMNOTICIA.COM.BR
+https://www.jmnoticia.com.br/2019/10/01/michelle-bolsonaro-divulga-campanha-de-combate-ao-suicidio-e-automutilacao/
+ Portal de notícias gospel. Tudo o que acontece em Tocantins e região
+https://www.jmnoticia.com.br/2016/10/22/ataque-de-muculmanos-destroi-igrejas-e-mata-pelo-menos-40-cristaos-na-nigeria/
+ Portal de notícias gospel. Tudo o que acontece em Tocantins e região
+https://www.jmnoticia.com.br/2016/01/15/cristaos-da-libia-enviam-pedido-de-oracao-a-igreja-do-brasilpor-favor-ajude-nos-na-libia/
+ Portal de notícias gospel. Tudo o que acontece em Tocantins e região
+https://www.jmnoticia.com.br/2019/03/25/por-que-o-genocidio-de-cristaos-e-amplamente-ignorado-pela-midia/
+ Portal de notícias gospel. Tudo o que acontece em Tocantins e região
+https://www.jmnoticia.com.br/2017/04/13/massacre-900-igrejas-ja-foram-destruidas-pelo-boko-haram-na-nigeria/
+ Portal de notícias gospel. Tudo o que acontece em Tocantins e região
+https://www.jmnoticia.com.br/2016/11/25/china-esta-retirando-orgaos-de-prisioneiros-cristaos-ainda-vivos-denunciam-medicos/
+ Portal de notícias gospel. Tudo o que acontece em Tocantins e região
+https://www.jmnoticia.com.br/2016/07/24/morta-no-parto-mae-ressuscita-milagrosamente-apos-oracao-do-marido/
+ Portal de notícias gospel. Tudo o que acontece em Tocantins e região
+https://www.jmnoticia.com.br/2016/04/20/pastores-sao-enterrados-vivos-na-china/
+ Portal de notícias gospel. Tudo o que acontece em Tocantins e região
+https://www.jmnoticia.com.br/2019/10/24/franca-debate-fim-dos-partidos-politicos-religiosos/
+ Portal de notícias gospel. Tudo o que acontece em Tocantins e região
+http://www.jmnoticia.com.br/brasilmundo-4305-deputado-petista-propoe-cirurgia-de-mudanca-de-sexo-para-criancas-mesmo-sem-o-consentimento-dos-pais.html
+ Portal de notícias gospel. Tudo o que acontece em Tocantins e região
+
+MILITAR.COM.BR
+https://clubemilitar.com.br/artigo/pensamento-do-clube-militar-16/
+ Pensamento do Clube Militar – Clube Militar
+
+EZINEARTICLES.COM
+__uso selenium
+https://EzineArticles.com/expert/Carol_Skinner/109801
+ Excessive Traffic
+__uso selenium
+http://ezinearticles.com/
+ Excessive Traffic
+__uso selenium
+http://EzineArticles.com/expert/Dr._Shaun_Stuto
+ Excessive Traffic
+__uso selenium
+http://EzineArticles.com/expert/Joanne_Douglass
+ Excessive Traffic
+__uso selenium
+http://EzineArticles.com/expert/Gary_Giardina
+ Excessive Traffic
+__uso selenium
+http://EzineArticles.com/expert/Dr._Nathalie_Beauchamp
+ Excessive Traffic
+__uso selenium
+http://EzineArticles.com/
+ Excessive Traffic
+__uso selenium
+https://EzineArticles.com/expert/Dr._Glen_Swartwout/1820966
+ Excessive Traffic
+__uso selenium
+https://EzineArticles.com/expert/Glen_Swartwout/1820966
+ Excessive Traffic
+__uso selenium
+http://EzineArticles.com/expert/Shelli_Rayner
+ Excessive Traffic
+
+BRANDNEWTUBE.COM
+https://brandnewtube.com/watch/breaking-discovery-what-covid-injections-do-to-your-blood-doctor-releases-horrific-findings_4nWiYHQmLjKGgWK.html
+ BREAKING DISCOVERY! WHAT COVID INJECTIONS DO TO YOUR BLOOD! DOCTOR RELEASES HORRIFIC FINDINGS!
+https://brandnewtube.com/v/jMI5ZG
+ BREAKING DISCOVERY! WHAT COVID INJECTIONS DO TO YOUR BLOOD! DOCTOR RELEASES HORRIFIC FINDINGS!
+
+GRANDEPONTO.COM.BR
+https://www.grandeponto.com.br/noticia/governado-pela-esquerda-nordeste-e-unica-regiao-do-pais-que-nao-gera-empregos
+ Jornalismo de verdade
+https://www.grandeponto.com.br/noticia/senador-do-rn-quer-banir-corruptos-e-tornar-crime-inafiancavel-e-imprescritivel
+ Jornalismo de verdade
+https://www.grandeponto.com.br/noticia/governo-lula-bateu-recorde-de-desmatamento-sob-silencio-da-midia-e-de-ongs
+ Jornalismo de verdade
+https://www.grandeponto.com.br/noticia/fatima-esquece-de-dizer-que-obras-no-rn-sao-do-governo-bolsonaro-diz-deputado
+ Jornalismo de verdade
+https://www.grandeponto.com.br/noticia/ministro-de-bolsonaro-libera-r-846-milhoes-para-a-saude-de-51-cidades-do-rn
+ Jornalismo de verdade
+https://www.grandeponto.com.br/noticia/governo-bolsonaro-investe-r-14-bilhao-na-transposicao-do-sao-francisco
+ Jornalismo de verdade
+https://www.grandeponto.com.br/noticia/protesto-hoje-em-natal-mira-stf-e-pede-pec-da-prisao-em-2a-instancia
+ Jornalismo de verdade
+https://www.grandeponto.com.br/noticia/deputada-federal-do-pt-e-unica-do-rn-a-votar-contra-pacote-anticrime-de-moro
+ Jornalismo de verdade
+https://www.grandeponto.com.br/noticia/quem-fica-preso-neste-pais-e-preto-pobre-e-favelado-diz-styvenson
+ Jornalismo de verdade
+https://www.grandeponto.com.br/noticia/com-bolsonaro-lucro-de-petrobras-eletrobras-e-bb-e-o-maior-desde-1993
+ Jornalismo de verdade
+
+JPOST.COM
+http://www.jpost.com/page.aspx
+ The Jerusalem Post
+
+NEWSATUAL.COM
+https://www.newsatual.com/o-massacre-do-menino-rhuan-e-o-silencio-da-grande-midia/
+ Page Not Found
+
+ARTICLES.MERCOLA.COM
+__uso selenium
+http://articles.mercola.com/sites/articles/archive/2014/04/24/memory-improvement-tricks.aspx
+ How the Endless War Became the Endless Pandemic
+__uso selenium
+http://articles.mercola.com/sites/articles/archive/2013/06/10/9-unhealthy-foods.aspx
+ How the Endless War Became the Endless Pandemic
+__uso selenium
+http://articles.mercola.com/sites/articles/archive/2014/07/14/type-2-diabetes-insulin-leptin.aspx
+ How the Endless War Became the Endless Pandemic
+__uso selenium
+http://articles.mercola.com/sites/articles/archive/2015/03/21/plastic-trash-ocean.aspx
+ How the Endless War Became the Endless Pandemic
+__uso selenium
+http://articles.mercola.com/sites/articles/archive/2014/11/01/fluoroquinolone-antibiotic-side-effects.aspx
+ How the Endless War Became the Endless Pandemic
+__uso selenium
+http://articles.mercola.com/sites/articles/archive/2015/04/06/10-everyday-items-throw-away.aspx
+ How the Endless War Became the Endless Pandemic
+__uso selenium
+http://articles.mercola.com/sites/articles/archive/2015/03/29/vaccine-adjuvants-brain-effects.aspx
+ How the Endless War Became the Endless Pandemic
+__uso selenium
+http://articles.mercola.com/sites/articles/archive/2013/08/07/worst-us-charities.aspx
+ How the Endless War Became the Endless Pandemic
+__uso selenium
+http://articles.mercola.com/sites/articles/archive/2016/10/23/near-infrared-led-lighting.aspx
+ How the Endless War Became the Endless Pandemic
+
+PORTALDEPREFEITURA.COM.BR
+https://portaldeprefeitura.com.br/2019/11/21/pt-psol-pc-do-b-e-pros-votaram-contra-a-prisao-em-segunda-instancia-na-ccj-2/
+ PT, PSOL, PC do B e Pros votaram contra a prisão em segunda instância na CCJ
+https://portaldeprefeitura.com.br/2019/11/21/pt-psol-pc-do-b-e-pros-votaram-contra-a-prisao-em-segunda-instancia-na-ccj/
+ PT, PSOL, PC do B e Pros votaram contra a prisão em segunda instância na CCJ
+
+OSUL.COM.BR
+http://www.ecosul.com.br/condicoes-da-via
+ Condições da Via
+
+TRIBUNANACIONAL.COM.BR
+http://www.tribunanacional.com.br
+ Jornal Tribuna Nacional
+
+CANALGAMA.COM.BR
+__uso selenium
+https://canalgama.com.br/crivella-diz-que-nao-vai-dar-nenhum-dinheiro-para-escolas-de-samba/
+ Page not found -
+__uso selenium
+https://canalgama.com.br/consideradas-vulgares-musicas-de-anitta-e-ludmilla-sao-proibidas-no-mexico/
+ Page not found -
+__uso selenium
+https://canalgama.com.br/professora-da-puc-faz-convocacao-para-jogar-ovos-em-moro-e-e-detonada-por-internautas/
+ Page not found -
+__uso selenium
+https://canalgama.com.br/advogado-petista-adriano-argolo-diz-que-moro-vai-levar-um-tiro-no-meio-da-testa/
+ Page not found -
+__uso selenium
+https://canalgama.com.br/damares-responde-arcebispo-ninguem-da-direita-introduziu-crucifixo-na-vagina/
+ Page not found -
+__uso selenium
+https://canalgama.com.br/milhares-vao-as-ruas-para-reeleicao-de-macri-temendo-que-pais-vire-venezuela/
+ Page not found -
+__uso selenium
+https://canalgama.com.br/bolsonaro-denuncia-traicao-a-patria-da-tv-globo-e-conclama-os-brasileiros-a-uniao/
+ Page not found -
+__uso selenium
+https://canalgama.com.br/general-heleno-diz-que-lula-esta-incitando-violencia-no-brasil/
+ Page not found -
+__uso selenium
+https://canalgama.com.br/joice-perde-quase-1-milhao-de-seguidores-apos-peitar-bolsonaro/
+ Page not found -
+__uso selenium
+https://canalgama.com.br/ministro-marco-aurelio-do-stf-manda-soltar-lider-do-pcc/
+ Page not found -
+
+ACTUALIDAD.RT.COM
+https://actualidad.rt.com/en_vivo
+ Noticias en vivo. Televisión 24 horas al día.
+http://actualidad.rt.com/en_vivo
+ Noticias en vivo. Televisión 24 horas al día.
+http://actualidad.rt.com
+ Noticias internacionales
+
+SBTNEWS.COM.BR
+https://www.sbtnews.com.br/noticia/governo/172540-dono-da-precisa-chama-de-devaneios-depoimento-de-irmaos-miranda-a-cpi
+ A sua fonte segura de informação
+https://www.sbtnews.com.br/noticia/Economia/165886-quase-5-milhoes-de-brasileiros-caem-da-classe-media-para-a-baixa
+ A sua fonte segura de informação
+https://www.sbtnews.com.br/noticia/congresso/174621-joice-hasselmann-foi-ferida-e-deu-entrada-em-hospital-de-brasilia
+ A sua fonte segura de informação
+https://www.sbtnews.com.br/noticia/congresso/174741-joice-hasselmann-tem-cinco-fraturas-no-rosto-e-nao-se-lembra-do-que-houve
+ A sua fonte segura de informação
+https://www.sbtnews.com.br/noticia/governo/163875-bolsonaro-confirma-a-pazuello-criacao-do-ministerio-da-amazonia
+ A sua fonte segura de informação
+https://www.sbtnews.com.br/noticia/governo/159015-governo-federal-vai-gastar-r-45-milhoes-em-jantares-para-militares
+ A sua fonte segura de informação
+https://www.sbtnews.com.br/noticia/congresso/167175-na-cpi-mandetta-disse-que-presidencia-cogitou-mudar-bula-da-cloroquina
+ A sua fonte segura de informação
+https://www.sbtnews.com.br/noticia/eleicoes/155022-auditoria-aponta-irregularidades-em-contratos-do-tse-com-servicos-de-ti-desde-1993
+ A sua fonte segura de informação
+https://www.sbtnews.com.br/noticia/brasil/autor/sbt-news/148801-sbt-vai-transmitir-copa-libertadores-da-america-para-tv-aberta
+ A sua fonte segura de informação
+https://www.sbtnews.com.br/noticia/justica/169612-as-739-mentiras-identificadas-pelo-tse-contra-o-processo-eleitoral
+ A sua fonte segura de informação
+
+ISTOEDINHEIRO.COM.BR
+https://www.istoedinheiro.com.br/
+ ISTOÉ DINHEIRO
+
+VIDADESTRA.ORG
+https://vidadestra.org/lunespay/
+ Vida Destra
+http://vidadestra.org
+ vidadestra.org
+http://www.vidadestra.org
+ vidadestra.org
+https://vidadestra.org/newsletter/
+ Vida Destra
+
+ARTIGOS.GOSPELPRIME.COM.BR
+http://artigos.gospelprime.com.br/assado-x-frito-fico-eleicoes2014/
+ Fé, política e cosmovisão cristã
+http://artigos.gospelprime.com.br/carta-aberta-povo-rebelde/
+ Fé, política e cosmovisão cristã
+http://artigos.gospelprime.com.br/15-bencaos-voce-deixar-agradecer/
+ Fé, política e cosmovisão cristã
+http://artigos.gospelprime.com.br/7x1-so-comeco/
+ Fé, política e cosmovisão cristã
+http://artigos.gospelprime.com.br/uma-carta-aberta-a-presidente-de-nosso-pais/
+ Fé, política e cosmovisão cristã
+http://artigos.gospelprime.com.br/huum-cheirinho-preconceito/
+ Fé, política e cosmovisão cristã
+https://artigos.gospelprime.com.br/uma-igreja-que-nao-me-de-tedio-por-favor/
+ Fé, política e cosmovisão cristã
+__uso selenium
+http://artigos.gospelprime.com.br/e-mais-facil-punir-do-que-restaurar
+ 404 Not Found
+http://artigos.gospelprime.com.br/preparados-classe-media-crista-brasileira
+ Fé, política e cosmovisão cristã
+http://artigos.gospelprime.com.br/pessoas-e-moedas/
+ Fé, política e cosmovisão cristã
+
+ESCAPULIU.COM.BR
+__uso selenium
+https://escapuliu.com.br/2019/10/10/lula-e-um-mero-vagabundo-que-gangrenou-a-democracia-brasileira-com-a-corrupcao-diz-premio-nobel/amp/
+ Página não encontrada – Escapuliu.com.br
+__uso selenium
+https://escapuliu.com.br/2019/10/10/lula-e-um-mero-vagabundo-que-gangrenou-a-democracia-brasileira-com-a-corrupcao-diz-premio-nobel/
+ Página não encontrada – Escapuliu.com.br
+__uso selenium
+https://escapuliu.com.br/2019/09/30/senhor-morre-depois-de-esperar-por-11-anos-decisao-do-stf-enquanto-isso-lula-tem-hc-julgado-no-mesmo-dia/
+ Página não encontrada – Escapuliu.com.br
+__uso selenium
+https://escapuliu.com.br/2019/11/09/stf-mantem-prisao-de-homem-que-furtou-radio-de-70-reais/
+ Página não encontrada – Escapuliu.com.br
+__uso selenium
+https://escapuliu.com.br/2019/10/08/campanha-do-pacote-anticrime-de-moro-explode-nas-redes-sociais-apos-proibicao-do-tcu/
+ Página não encontrada – Escapuliu.com.br
+__uso selenium
+https://escapuliu.com.br/2019/11/16/imperdivel-lula-e-recebido-em-sua-terra-natal-aos-gritos-de-o-ladrao-chegou/
+ Página não encontrada – Escapuliu.com.br
+__uso selenium
+https://escapuliu.com.br/2019/11/17/povo-vai-as-ruas-para-mostrar-que-nao-e-robo-e-pedir-a-cabeca-de-gilmar-mendes/
+ Página não encontrada – Escapuliu.com.br
+__uso selenium
+https://escapuliu.com.br/2019/10/30/deus-esta-no-controle-de-todas-as-coisas-diz-michelle/
+ Página não encontrada – Escapuliu.com.br
+__uso selenium
+https://escapuliu.com.br/2019/11/04/vou-gastar-tudo-que-tenho-direito-ate-o-ultimo-centavo-diz-frota-sobre-uso-do-dinheiro-publico-para-pagar-jantar-de-r-36-mil/
+ Página não encontrada – Escapuliu.com.br
+__uso selenium
+https://escapuliu.com.br/2019/11/12/eduardo-bolsonaro-divulga-logo-de-novo-partido-de-bolsonaro-veja/
+ Página não encontrada – Escapuliu.com.br
+
+REVISTATERCALIVRE.COM.BR
+https://revistatercalivre.com.br/app/noticias-suplementares/alexandre-de-moraes-transforma-stf-em-tribunal-de-excecao-__65
+ Terça Livre Juntos
+https://revistatercalivre.com.br/app/noticias-suplementares/rodrigo-maia-espalha-fake-news-sobre-abraham-weintraub__76
+ Terça Livre Juntos
+http://revistatercalivre.com.br
+ Terça Livre Juntos
+https://revistatercalivre.com.br/app/noticias-suplementares/a-tirania-de-alexandre-de-moraes__50
+ Terça Livre Juntos
+http://www.revistatercalivre.com.br
+ Terça Livre Juntos
+https://revistatercalivre.com.br/app/noticias-suplementares/juiz-que-absolveu-adelio-bispo-assinou-mocao-de-apoio-a-moro__93
+ Terça Livre Juntos
+https://revistatercalivre.com.br/app/noticias-suplementares/advogado-entra-com-mandado-de-seguranca-contra-rodrigo-maia-no-stf__41
+ Terça Livre Juntos
+https://revistatercalivre.com.br/app/noticias-suplementares/bomba:-vazam-documentos-da-fundacao-gates,-oms-e-instituto-de-virologia-de-wuhan__40
+ Terça Livre Juntos
+https://revistatercalivre.com.br/app/noticias-suplementares/a-infiltracao-chinesa-__74
+ Terça Livre Juntos
+https://revistatercalivre.com.br/app/noticias-suplementares/stf-faz-malabarismo-e-mantem-inquerito-inconstitucional__75
+ Terça Livre Juntos
+
+IPCO.ORG.BR (são abaixo-assinados)
+https://campanhas.ipco.org.br//abaixo-assinado-pelo-voto-impresso
+ Abaixo-Assinado pelo VOTO IMPRESSO publicamente auditável
+https://campanhas.ipco.org.br//abaixo-assinado-nao-ao-samba-da-mangueira-que-blasfema-contra-cristo
+ Abaixo-Assinado: Não ao Samba da Mangueira que Blasfema contra Cristo
+https://campanhas.ipco.org.br/diga-nao-a-netflix-que-zomba-de-cristo-no-natal
+ Abaixo-Assinado: Diga não à Netflix que Zomba de Cristo no Natal
+https://campanhas.ipco.org.br/abaixo-assinado-nao-ao-samba-da-mangueira-que-blasfema-contra-cristo
+ Abaixo-Assinado: Não ao Samba da Mangueira que Blasfema contra Cristo
+https://campanhas.ipco.org.br//abaixo-assinado-nao-aos-152-bispos-de-esquerda-queremos-nosso-brasil-de-volta
+ Abaixo-assinado: Não aos 152 Bispos de Esquerda – Queremos nosso Brasil de volta!
+https://campanhas.ipco.org.br//eu-nao-contribuo-com-a-campanha-da-fraternidade-ecumenica-da-cnbb-cf-2021
+ Eu NÃO CONTRIBUO com a Campanha da Fraternidade Ecumênica da CNBB (CF 2021)
+https://ipco.org.br/tribunal-alemao-urnas-eletronicas-sao-inconstitucionais/
+ Tribunal alemão: urnas eletrônicas são inconstitucionais
+https://campanhas.ipco.org.br//diga-nao-a-netflix-que-zomba-de-cristo-no-natal
+ Abaixo-Assinado: Diga não à Netflix que Zomba de Cristo no Natal
+
+ANTROPOFAGISTA.COM.BR
+https://antropofagista.com.br/2020/07/04/como-a-lava-jato-escondeu-do-governo-federal-visita-do-fbi-e-procuradores-americanos/
+ Antropofagista
+
+TVCIDADENEWS.COM - tempo de coleta muito grande
+{"fonte": "tvcidadenews.com", "urls": ["https://www.tvcidadenews.com.br/2019/11/bolsonaro-proibe-ficha-suja-de-se.html", "https://www.tvcidadenews.com.br/2020/05/helder-tenta-impedir-que-policia.html", "https://www.tvcidadenews.com.br/2019/06/a-trama-suja-para-libertar-lula-e.html", "https://www.tvcidadenews.com.br/2019/06/general-se-o-stf-libertar-lula-havera.html", "https://www.tvcidadenews.com.br/2019/07/urgente-bndes-abriga-409-advogados-da.html", "https://www.tvcidadenews.com.br/2019/11/impeachment-de-gilmar-e-prisao-de.html", "https://www.tvcidadenews.com.br/2019/12/tarcisio-cumpre-100-das-metas-e-anuncia.html", "https://www.tvcidadenews.com.br/2019/11/aliado-do-pt-e-apontado-como-mentor-da.html", "https://www.tvcidadenews.com.br/2019/07/mais-de-1-milhao-de-petistas-recebiam.html", "https://www.tvcidadenews.com.br/2018/11/audiencia-do-sbt-aumenta-apos.html"]}
+
+BREITBART.COM (link de outro site)
+https://paper.li/McGMaryland1/1543839084
+ The McGMaryland Daily
+
+REPORTERMT.COM.BR
+https://www.reportermt.com.br/variedades/picole-de-cerveja-e-criado-por-empresas-e-vira-aposta-para-carnaval/106114
+ Picolé de cerveja é criado por empresas e vira aposta para carnaval
+__uso selenium
+https://www.reportermt.com.br/geral/sem-dinheiro-para-pagar-energia-reitora-da-ufmt-torra-r-r-1-3-milhao-em-viagens/101456
+ Página não encontrada
+__uso selenium
+https://www.reportermt.com.br/nacional/pesquisador-descobre-que-o-pequi-e-excelente-aliado-contra-lupus-e-diabetes/52999
+ Página não encontrada
+__uso selenium
+https://www.reportermt.com.br:443/geral/sem-dinheiro-para-pagar-energia-reitora-da-ufmt-torra-r-r-1-3-milhao-em-viagens/101456
+ Página não encontrada
+https://www.reportermt.com.br/policia/preso-por-estuprar-enteado-sai-da-cadeia-e-estupra-sobrinha-de-9-anos/105751
+ Preso por estuprar enteado sai da cadeia e estupra sobrinha de 9 anos
+__uso selenium
+https://www.reportermt.com.br:443/nacional/pesquisador-descobre-que-o-pequi-e-excelente-aliado-contra-lupus-e-diabetes/52999
+ Página não encontrada
+__uso selenium
+https://www.reportermt.com.br:443/direto-ao-ponto//outdoors-em-apoio-a-bolsonaro-sao-colocados-em-varios-municipios-de-mato-grosso/116412
+ Página não encontrada
+
+PARLER.COM
+http://Parler.com
+ About Parler
+http://parler.com
+ About Parler
+https://parler.com/
+ About Parler
+__uso selenium
+https://parler.com/auth/access
+ Parler
+__uso selenium
+https://parler.com/profile/CarlaZambelli/posts
+ Parler
+__uso selenium
+https://parler.com/feed
+ Parler
+__uso selenium
+https://company.parler.com/android/parler-release.apk
+ Parler
+http://Www.parler.com
+ About Parler
+__uso selenium
+https://parler.com/profile/Kowalsky/
+ Parler
+__uso selenium
+https://parler.com/profile/anapaulavolei/posts
+ Parler
+
+CONTA.CC
+http://conta.cc/2k5V6Ql
+ 2017 Honoree Celebration
+http://conta.cc/2njZmRi
+ 2017 Taste of Evergreen
+http://conta.cc/1WqkMqs
+ 2016 Taste of Evergreen
+http://conta.cc/2eoaeIA
+ 2016 Evergreen Chamber Sparkle & Shine Business Awards & Holiday Gala
+http://conta.cc/2ayr9EE
+ 2016 Women In Business Luncheon
+https://conta.cc/2O2G95M
+ Save the Date! Learn from the Best!
+__uso selenium
+http://conta.cc/2qDP39S
+ Constant Contact : File Not Found 404
+http://conta.cc/2iGAlyy
+ "Speaking Well is Good Business!" Workshop
+http://conta.cc/2a5G5Ku
+ Hands On Facebook for Business Workshop (Back by Popular Demand!)
+http://conta.cc/2daYGds
+ Workshop: Use Linkedin to Grow Your Business
+
+JORNAL316.COM.BR
+__uso selenium
+https://www.jornal316.com.br/2019/07/bolsonaro-mostra-quem-e-que-manda-peita.html
+ Jornal 316
+__uso selenium
+https://www.jornal316.com.br/2019/05/vazou-rodrigo-maia-articulou-derrota-de.html
+ Jornal 316
+
+ARTICULOS.MERCOLA.COM (links repetidos)
+__uso selenium
+http://articulos.mercola.com/sitios/articulos/archivo/2016/04/06/los-endulzantes-artificiales-causan-cancer.aspx
+ Los Endulzantes Artificiales Pueden Desencadenar el Cáncer
+__uso selenium
+https://articulos.mercola.com/sitios/articulos/archivo/2016/04/06/los-endulzantes-artificiales-causan-cancer.aspx
+ Los Endulzantes Artificiales Pueden Desencadenar el Cáncer
+
+RAMBLALIBRE.COM
+http://ramblalibre.com
+ Portada – Rambla Libre
+
+INFOWARS.COM
+https://www.infowars.com/watch
+ Watch Live
+http://www.infowars.com
+ Infowars: There's a War on For Your Mind!
+http://Infowars.com
+ Infowars: There's a War on For Your Mind!
+https://www.infowars.com/posts/groundbreaking-claim-trump-set-up-democrats-in-sophisticated-sting-operation-caught-stealing-election-red-handed/
+ Infowars Article
+__uso selenium
+https://www.infowars.com/watch-jihad-in-america-the-history-of-islam/
+ 404 Not Found
+__uso selenium
+http://www.infowars.com/newsletter-content/
+ 404 Not Found
+https://infowars.com/posts/watch-the-censored-trump-interview-in-full/
+ Infowars: There's a War on For Your Mind!
+https://www.infowars.com/posts/fake-news-alert-video-seen-by-millions-claims-trump-oversaw-capitol-seige-while-rejoicing-to-song-gloria/
+ Infowars Article
+http://infowars.com
+ Infowars: There's a War on For Your Mind!
+https://www.infowars.com/watch/
+ Watch Live
+
+SPDIARIO.COM.BR (Nome do autor antes do tirulo)
+https://spdiario.com.br/rodrigo-constantino-10/
+ Rodrigo Constantino: A motociata de Agripino
+https://spdiario.com.br/massacre-pazuello/
+ Rodrigo Constantino: O massacre de Pazuello
+https://spdiario.com.br/rodrigo-constantino-3/
+ Rodrigo Constantino: Quem vai parar o STF?
+https://spdiario.com.br/jornalismo/
+ Rodrigo Constantino: Que jornalismo é esse?
+https://spdiario.com.br/rodrigo-constantino-9/
+ Rodrigo Constantino: Perigosa desumanização
+https://spdiario.com.br/xadrez-pombo/
+ Rodrigo Constantino: Xadrez com pombo
+https://spdiario.com.br/constantino-macri-trump/
+ Rodrigo Constantino: Entre Macri e Trump
+
+SHOCKWAVENEWS.COM.BR
+https://www.shockwavenews.com.br/post/governo-bolsonaro-trabalha-em-resolução-sobre-mudança-de-sexo-em-crianças
+ ShockWaveNews
+https://www.shockwavenews.com.br/post/governo-bolsonaro-trabalha-em-resolu%C3%A7%C3%A3o-sobre-mudan%C3%A7a-de-sexo-em-crian%C3%A7as
+ ShockWaveNews
+
+
