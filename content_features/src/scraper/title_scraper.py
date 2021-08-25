@@ -65,6 +65,48 @@ def __get_html_with_selenium(url):
     # return HTMl:
     return driver.page_source
 
+def extract_title(s):
+    filters = ['.html', '.aspx']
+    parse = s.split('/')
+    for el in reversed(parse):
+        if '-' in el:
+            if any(x in el for x in filters):
+                return el.split('.')[0].replace('-',' ')
+            return el.replace('-',' ')
+    return 'NULL'
+    
+def get_title_url(url):
+    filters = ['.google','/render','/social_annotation','/start',] 
+    if any(s in url for s in filters):
+        return 'NULL'
+    title = extract_title(url)
+    return title
+
+
+def execute(source,url):
+    source_parse = source.split('.')
+    source_name = source_parse[1].upper() if source_parse[0].upper == 'WWW' else source_parse[0].upper()
+    filters = ['OPS','404','ERRO','NOT FOUND','EXCESSIVE TRAFFIC', 'SERVER ERROR','NÃO ENCONTRADA',
+    'ERROR','CONTEUDO INDISPONIVEL','PLEASE WAIT','COMENTÁRIO, NOTÍCIAS E COMPORTAMENTO','Igreja, vida cristã, opinião e estudos bíblicos'
+    'SURVEY IS CLOSED','Portal de notícias gospel.',' Tudo o que acontece em Tocantins e região','A sua fonte segura de informação',
+    'Fé, política e cosmovisão cristã','Infowars:','a War on For Your Mind!','vida cristã',source_name]
+    filters = [i.upper() for i in filters]
+    if 'HTTPS://'+source.upper()+'/' == url:
+        return 'NULL'
+    try:
+        title = get_title(url)
+    except:
+        return get_title_url(url)
+
+    if any(x in title.upper() for x in filters) or (len(title.split()) <= 4):
+        return get_title_url(url)
+
+    return title
+
+
+
+
+
 def lendo_dataset(localizacao_arquivo):
     """
     Reads MP dataset
@@ -114,3 +156,6 @@ def teste():
     print("Number of contained: ", contained_cnt)
     print("Number of different: ", different_cnt)
 
+# _s = 'http://events.r20.constantcontact.com/register/event'
+# print('\nresultado extração: ',extract_title(_s))
+# print('titulo: ', get_title_url(_s))
