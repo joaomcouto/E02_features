@@ -5,7 +5,8 @@ from google.cloud import language_v1
 from google.oauth2 import service_account
 
 def get_cred():
-	credentials = service_account.Credentials.from_service_account_file("api_auth/ic-analise-de-sentimentos-7ee361a878de.json")
+	key_path = os.environ.get('SENTIMENT_ANALYSIS_API_KEY')
+	credentials = service_account.Credentials.from_service_account_file(key_path)
 	return credentials
 
 def analyze_score(val,mag):
@@ -49,11 +50,9 @@ def sample_analyze_sentiment(text_content):
 	response = client.analyze_sentiment(request = {'document': document, 'encoding_type': encoding_type})
 	score = response.document_sentiment.score
 	magnitude = response.document_sentiment.magnitude
-	infos = {'string':'',
-			'sentiment_score':'',
+	infos = {'sentiment_score':'',
 			'sentiment_magnitude':'',
 			'sentiment':''}
-	infos['string'] = text_content
 	infos['sentiment_score'] = score
 	infos['sentiment_magnitude'] = magnitude
 	infos['sentiment'] = analyze_score(score,magnitude)
