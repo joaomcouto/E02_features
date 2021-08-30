@@ -2,6 +2,7 @@ import env
 import json
 import os
 import sys
+import traceback
 
 from count_exclamation import count_exclamation
 from count_hashtags import count_hashtags
@@ -14,73 +15,82 @@ from scraper.title_scraper import execute
 
 
 def run_titles(args):
-	with open(os.environ.get("FAKE_NEWS_URL_PROBLEM_FILE"),'r') as f:
-		for line in f:
-			dic = json.loads(line)
-			L = [{'Titulo': ''}]
-			#for url in dic['url']:
-			data = {}
-			data['url'] = dic['url'].strip() #url.strip()
-			data['fonte'] = dic['fonte']	
-			data['Titulo'] = str(execute(data['fonte'],data['url'])).strip()
-			if data['Titulo'] == 'NULL' or data['Titulo'] == None or data['Titulo'] == L[-1]['Titulo']:
-				with(open('../dados/titles_exeptions.txt','a')) as file:
-					file.write(json.dumps(data,ensure_ascii=False)+'\n')
-			else:
-				L.append(data)
-			with open('../dados/top10_fake_titles.txt','a') as f:
-				for l in L[1:]:
-					f.write(json.dumps(l,ensure_ascii=False)+'\n')
-
-					
+    with open(os.environ.get("FAKE_NEWS_URL_PROBLEM_FILE"), 'r') as f:
+        for line in f:
+            dic = json.loads(line)
+            L = [{'Titulo': ''}]
+            # for url in dic['url']:
+            data = {}
+            data['url'] = dic['url'].strip()  # url.strip()
+            data['fonte'] = dic['fonte']
+            data['Titulo'] = str(execute(data['fonte'], data['url'])).strip()
+            if data['Titulo'] == 'NULL' or data['Titulo'] == None or data['Titulo'] == L[-1]['Titulo']:
+                with(open('../dados/titles_exeptions.txt', 'a')) as file:
+                    file.write(json.dumps(data, ensure_ascii=False)+'\n')
+            else:
+                L.append(data)
+            with open('../dados/top10_fake_titles.txt', 'a') as f:
+                for l in L[1:]:
+                    f.write(json.dumps(l, ensure_ascii=False)+'\n')
 
 
-def run_features(args):
-	# Inicializando estruturas de dados
-	metrics = {'fake': {}, 'true': {}}
-	titles = {}
+def run_features(title):
+    aux = {}
+    toxicity = toxicity_threat_insult(title)
+    aux.update(toxicity)
+    sentiment = SentimentAnalyzer(title)
+    aux.update(sentiment)
+    exclamation = count_exclamation(title)
+    aux.update(exclamation)
+    uppercase = count_uppercase_words(title)
+    aux.update(uppercase)
+    hashtags = count_hashtags(title)
+    aux.update(hashtags)
+    text = text_metrics.run(title)
+    aux.update(text)
+    LIWC = LIWC_metrics(title)
+    aux.update(LIWC)
+    return aux
 
-	# Lendo os arquivos com os títulos
-	with open(os.environ.get("FAKE_NEWS_FILE")) as f:
-		titles['fake'] = f.readlines()
-	with open(os.environ.get("TRUE_NEWS_FILE")) as f:
-		titles['true'] = f.readlines()
 
-	# Gerando as features para cadaa título
-	for news_type in ['fake', 'true']:
-		for title in titles[news_type]:
-			aux = {}
-			toxicity = toxicity_threat_insult(title)
-			aux.update(toxicity)
-			sentiment = SentimentAnalyzer(title)
-			exclamation = count_exclamation(title)
-			aux.update(exclamation)
-			uppercase = count_uppercase_words(title)
-			aux.update(uppercase)
-			hashtags = count_hashtags(title)
-			aux.update(hashtags)
-			text = text_metrics.run(title)
-			aux.update(text)
-			LIWC = LIWC_metrics(title)
-			aux.update(LIWC)
-			metrics[news_type][title.strip()] = aux
+def run_fake(args):
+    # Leitura dos titulos:
+    dados_originais = []
+    with open("./../dados/top10_fake_titles.txt", mode='r') as f:
+        for line in f:
+            dados_originais.append(json.loads(line.strip()))
 
-	# Salvando dados gerados
-	with open(os.environ.get('METRICS'), 'w') as f:
-		json_string = json.dumps(
-			metrics,
-			sort_keys=False,
-			indent=4,
-			ensure_ascii=False)
-		f.write(json_string)
+    # Verifica se há títulos processados:
+    resultados = []
+    arquivo_resultado = "./../dados/resultado_fake_titles.txt"
+    if os.stat(arquivo_resultado).st_size != 0:
+        # Caso haja, carrega eles, para continuar de onde parou
+        with open(arquivo_resultado, mode='r') as f:
+            for line in f:
+                resultados.append(json.loads(line.strip()))
+
+    for i in range(len(resultados), len(dados_originais)):
+        this_dados = dados_originais[i]
+        try:
+            features = run_features(this_dados["Titulo"])
+            this_dados['features'] = features
+        except Exception as e:
+            # Salvando qual o erro que aconteceu
+            this_dados['exception'] = traceback.format_exc()
+
+        # Salvando dados coletados junto com dados do título (url e fonte)
+        with open(arquivo_resultado, mode='a', encoding='utf-8') as f:
+            f.write(json.dumps(this_dados, ensure_ascii=False) + '\n')
 
 
 if __name__ == "__main__":
-	args = sys.argv[1:]
-	function = args[0]
-	if function == 'features':
-		run_features(args[1:])
-	elif function == 'titles':
-		run_titles(args[1:])
-	else:
-		print("Por favor selecione qual metodo quer usar")
+    args = sys.argv[1:]
+    function = args[0]
+    if function == 'features':
+        run_features(args[1:])
+    elif function == 'titles':
+        run_titles(args[1:])
+    elif function == 'fake_features':
+        run_fake(args[1:])
+    else:
+        print("Por favor selecione qual metodo quer usar")
