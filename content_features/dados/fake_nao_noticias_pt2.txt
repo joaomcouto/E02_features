@@ -1,0 +1,17 @@
+{"url": "https://mgsnewstvcombr.com.br/2020/08/25/e-fake-e-folha/", "fonte": "mgsnewstvcombr.com.br", "Titulo": "e fake e folha"}
+{"url": "https://cityportal.com.br/city-politica", "fonte": "cityportal.com.br", "Titulo": "city politica"}
+{"url": "https://livraria.tercalivre.com.br/introducao-a-nom-2", "fonte": "livraria.tercalivre.com.br", "Titulo": "Introdução à Nova Ordem Mundial"}
+{"url": "https://livraria.tercalivre.com.br/desinformacao", "fonte": "livraria.tercalivre.com.br", "Titulo": "Ex-chefe de espionagem revela estratégias secretas para solapar a liberdade"}
+{"url": "https://livraria.tercalivre.com.br/como-construir-sua-resiliencia", "fonte": "livraria.tercalivre.com.br", "Titulo": "Como construir sua resiliência: Um guia para rebater os desafios da vida e conquistar o mundo"}
+{"url": "https://livraria.tercalivre.com.br/como-ser-um-conservador", "fonte": "livraria.tercalivre.com.br", "Titulo": "como ser um conservador"}
+{"url": "https://livraria.tercalivre.com.br/mentiram-para-mim-sobre-o-desarmamento", "fonte": "livraria.tercalivre.com.br", "Titulo": "Mentiram para mim sobre o Desarmamento"}
+{"url": "https://livraria.tercalivre.com.br/os-erros-fatais-do-socialismo", "fonte": "livraria.tercalivre.com.br", "Titulo": "os erros fatais do socialismo"}
+{"url": "http://livraria.tercalivre.com.br/desculpe-me-socialista", "fonte": "livraria.tercalivre.com.br", "Titulo": "Desmascarando as 50 mentiras mais contadas pela esquerda"}
+{"url": "http://livraria.tercalivre.com.br/o-imbecil-juvenil-o-que-restou-do-imbecil-vol-ii", "fonte": "livraria.tercalivre.com.br", "Titulo": "O que restou do imbecil"}
+{"url": "https://livraria.tercalivre.com.br/o-livro-negro-do-comunismo", "fonte": "livraria.tercalivre.com.br", "Titulo": "O livro negro do Comunismo"}
+{"url": "https://lp.seminariodefilosofia.org/saber-comprar/", "fonte": "lp.seminariodefilosofia.org", "Titulo": "saber comprar"}
+{"url": "https://lp.seminariodefilosofia.org/assinatura-cof/", "fonte": "lp.seminariodefilosofia.org", "Titulo": "Assinatura COF – Seminario de Filosofia"}
+{"url": "https://lp.seminariodefilosofia.org/saber-b/", "fonte": "lp.seminariodefilosofia.org", "Titulo": "saber b"}
+{"url": "https://paper.li/Richards-News-OnLine", "fonte": "breitbart.com", "Titulo": "Richards News OnLine"}
+{"url": "https://www.theepochtimes.com/election-2020", "fonte": "theepochtimes.com", "Titulo": "election 2020"}
+{"url": "https://subscribe.theepochtimes.com/p/", "fonte": "theepochtimes.com", "Titulo": "Subscribe to The Epoch Times for $1"}
