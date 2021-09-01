@@ -15,25 +15,42 @@ from scraper.title_scraper import execute
 
 
 def run_titles(args):
-    with open(os.environ.get("FAKE_NEWS_URL_PROBLEM_FILE"), 'r') as f:
-        for line in f:
-            dic = json.loads(line)
-            L = [{'Titulo': ''}]
-            # for url in dic['url']:
-            data = {}
-            data['url'] = dic['url'].strip()  # url.strip()
-            data['fonte'] = dic['fonte']
-            data['Titulo'] = str(execute(data['fonte'], data['url'])).strip()
-            if data['Titulo'] == 'NULL' or data['Titulo'] == None or data['Titulo'] == L[-1]['Titulo']:
-                with(open('../dados/titles_exeptions.txt', 'a')) as file:
-                    file.write(json.dumps(data, ensure_ascii=False)+'\n')
-            else:
-                L.append(data)
-            with open('../dados/top10_fake_titles.txt', 'a') as f:
-                for l in L[1:]:
-                    f.write(json.dumps(l, ensure_ascii=False)+'\n')
-
-
+    arg = args[0]
+    if arg == 'fake':
+        with open(os.environ.get("FAKE_NEWS_URL_FILE"), 'r') as f:
+            for line in f:
+                dic = json.loads(line)
+                L = [{'Titulo': ''}]
+                for url in dic['url']:
+                    data = {}
+                    data['url'] = dic['url'].strip()  # url.strip()
+                    data['fonte'] = dic['fonte']
+                    data['Titulo'] = str(execute(data['fonte'], data['url'])).strip()
+                    if data['Titulo'] == 'NULL' or data['Titulo'] == None or data['Titulo'] == L[-1]['Titulo']:
+                        with(open(os.environ.get("FAKE_NEWS_EXCEPTION_FILE"),'a')) as file:
+                            file.write(json.dumps(data, ensure_ascii=False)+'\n')
+                    else:
+                        L.append(data)
+                with open('../dados/FakeNews_titles.txt', 'a') as f:
+                    for l in L[1:]:
+                        f.write(json.dumps(l, ensure_ascii=False)+'\n')
+    elif arg == 'true':
+        with open(os.environ.get("TRUE_NEWS_URL_FILE"),'r') as f:
+            for url in f:
+                d = {}
+                d['url'] = url.strip()
+                d['fonte'] = url.split('/')[2]
+                d['Titulo'] = str(execute(d['fonte'],d['url'])).strip()
+                print('URL = ',d['url'],'\nTITULO = ',d['Titulo'])
+                if d['Titulo'] == 'NULL' or d['Titulo'] == None:
+                    with(open(os.environ.get("TRUE_NEWS_EXCEPTION_FILE"),'a')) as file:
+                        file.write(json.dumps(d, ensure_ascii=False)+'\n')
+                else:
+                    with open('../dados/TrueNews_titles.txt', 'a') as f:
+                        f.write(json.dumps(d, ensure_ascii=False)+'\n')
+    else:
+        print("Argumento Inválido!")
+        return
 def run_features(title):
     aux = {}
     toxicity = toxicity_threat_insult(title)
@@ -56,7 +73,7 @@ def run_features(title):
 def run_fake(args):
     # Leitura dos titulos:
     dados_originais = []
-    with open("./../dados/top10_fake_titles.txt", mode='r') as f:
+    with open("./../dados/FakeNews_titles.txt", mode='r') as f:
         for line in f:
             dados_originais.append(json.loads(line.strip()))
 

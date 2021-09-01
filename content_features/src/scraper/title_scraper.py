@@ -66,7 +66,7 @@ def __get_html_with_selenium(url):
     return driver.page_source
 
 def extract_title(s):
-    filters = ['.html', '.aspx']
+    filters = ['.html', '.aspx', '.ghtml', 'html','.']
     parse = s.split('/')
     for el in reversed(parse):
         if '-' in el:
@@ -76,7 +76,8 @@ def extract_title(s):
     return 'NULL'
     
 def get_title_url(url):
-    filters = ['.google','/render','/social_annotation','/start',] 
+    print('__tituloURL')
+    filters = ['.google','/render','/social_annotation','/start','pagina-','.jpeg','fato-ou-fake','.bmp','.png','.pdf'] 
     if any(s in url for s in filters):
         return 'NULL'
     title = extract_title(url)
@@ -86,20 +87,31 @@ def get_title_url(url):
 def execute(source,url):
     source_parse = source.split('.')
     source_name = source_parse[1].upper() if source_parse[0].upper == 'WWW' else source_parse[0].upper()
-    filters = ['OPS','404','ERRO','NOT FOUND','EXCESSIVE TRAFFIC', 'SERVER ERROR','NÃO ENCONTRADA',
+    filters_url = ['OPS','404','NOT FOUND','EXCESSIVE TRAFFIC', 'SERVER ERROR','NÃO ENCONTRADA',
     'ERROR','CONTEUDO INDISPONIVEL','PLEASE WAIT','COMENTÁRIO, NOTÍCIAS E COMPORTAMENTO','Igreja, vida cristã, opinião e estudos bíblicos'
     'SURVEY IS CLOSED','Portal de notícias gospel.',' Tudo o que acontece em Tocantins e região','A sua fonte segura de informação',
-    'Fé, política e cosmovisão cristã','Infowars:','a War on For Your Mind!','vida cristã',source_name]
-    filters = [i.upper() for i in filters]
-    if 'HTTPS://'+source.upper()+'/' == url:
+    'Fé, política e cosmovisão cristã','Infowars:','a War on For Your Mind!','vida cristã']
+
+    filters_null = ['jornal regional','pagina-','Notícias de Dourados-MS e região','Conteúdo de Tecnologia do UOL','#fato ','#fake ',
+     'jornal do dia']
+    
+    filters_null = [i.upper() for i in filters_null]
+    filters_url = [i.upper() for i in filters_url]
+    
+    if 'HTTPS://'+source.upper()+'/' == url.upper():
         return 'NULL'
     try:
         title = get_title(url)
     except:
+        print('__exceção')
         return get_title_url(url)
 
-    if any(x in title.upper() for x in filters) or (len(title.split()) <= 4):
-        return get_title_url(url)
+    if any(x in title.upper() for x in filters_null) or len(title.split(' ')) <= 2:
+        return 'NULL'
+
+    if any(x in title.upper() for x in filters_url):
+        print('_filtro ',title)
+        title = get_title_url(url)
 
     return title
 
