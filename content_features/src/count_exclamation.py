@@ -4,5 +4,3 @@ def count_exclamation(text):
     on given text.
     """
     return {'exclamation_number': text.count('!')}
-
-#print(count_exclamation("!as!!kdjaf#akdf!jdka#aflkd!j#!"))

@@ -5,4 +5,3 @@ def count_hashtags(text):
     """
     return {'hashtags_number': text.count('#')}
 
-#print(count_hashtags("askdjaf#akdfjdka#aflkdj#"))

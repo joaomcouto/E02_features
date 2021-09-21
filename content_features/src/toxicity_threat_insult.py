@@ -58,5 +58,3 @@ def toxicity_threat_insult(text):
 
     return results
 
-
-#print(toxicity_threat_insult("Alemanha confirma 1º caso de coronavírus em Starnberg"))
