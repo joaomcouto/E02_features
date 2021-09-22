@@ -1,1 +1,0 @@
-{"url": "https://www.correio24horas.com.br/noticia/nid/e-preciso-perdoar-ciencia-confirma-ligacao-da-magoa-com-infarto/", "fonte": "correio24horas.com.br", "Titulo": "É preciso perdoar: ciência confirma ligação da mágoa com infarto", "exception": "IndexError: list index out of range\n"}
