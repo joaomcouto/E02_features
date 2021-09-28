@@ -10,7 +10,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from selenium.common.exceptions import InvalidSessionIdException
 from selenium.webdriver.chrome.options import Options
-from fake_useragent import UserAgent
+import tldextract
+#from fake_useragent import UserAgent
 
 class BaseScrapper():
     def __init__(self, browser="chrome_headless"):
@@ -19,7 +20,8 @@ class BaseScrapper():
     def set_selenium_driver(self, browser="chrome_headless"):
         # Browser headless, for automatic executiond
         if browser == "chrome_headless":
-            driver_dir = "../drivers/chromedriver"
+            driver_dir = "/home/joaomcouto/git/E02_features/source_features/drivers/chromedriver"
+            print(driver_dir)
             chrome_options = self.__set_chrome_options()
             self.driver = webdriver.Chrome(options=chrome_options,
                                            executable_path=driver_dir)
@@ -34,9 +36,9 @@ class BaseScrapper():
         """
         chrome_options = Options()
 
-        ua = UserAgent()
-        userAgent = ua.random
-        chrome_options.add_argument(f'user-agent={userAgent}')
+#         ua = UserAgent()
+#         userAgent = ua.random
+#         chrome_options.add_argument(f'user-agent={userAgent}')
 
         chrome_options.add_argument("--headless")
         chrome_options.add_argument("--window-size=1920x1080")
@@ -61,43 +63,41 @@ class RankingFeaturesExtractor(BaseScrapper):
             super(RankingFeaturesExtractor, self).__init__(browser="firefox")
         else:
             super(RankingFeaturesExtractor, self).__init__()
-    
-    def get_domain_from_url(self,url):
-        domain = url.split("://")[1].split("/")[0]
-        domain.replace("www.", "")
-        return domain
 
     def get_alexa_ranking(self,url):
-        domain = self.get_domain_from_url(url)
-        self.driver.get("https://www.alexa.com/siteinfo/" + domain)
+        
+        ext = tldextract.extract(url)
+        subdomain ='.'.join(part for part in ext if part)
+        
+        self.driver.get("https://www.alexa.com/siteinfo/" + subdomain)
         rankingElement = self.driver.find_element(*(By.XPATH,"//div[contains(@class, 'rankmini-rank') and span]"))
         rankingString = rankingElement.text.replace("#", "").replace(",", "")
         return int(rankingString)
-
-
-    # def get_similarweb_ranking(self,url):
-    #     domain = self.get_domain_from_url(url)
-    #     self.driver.get("https://www.similarweb.com/website/" + domain)
-    #     time.sleep(10)
-    #     with open('filename.txt', 'w') as f:
-    #         f.write(self.driver.page_source)
-
-
-     
-    #     WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "websiteRanks-container")))
         
+    def get_domcop_10million_rank(self,url,dfTenMill):
+        ext = tldextract.extract(url)
+        subdomain ='.'.join(part for part in ext if (part and part!='www'))    
+        return dfTenMill[dfTenMill['Domain'] == subdomain]['Rank'].values[0]
+    
+    def get_domcop_10million_open_page_rank(self,url,dfTenMill):
+        ext = tldextract.extract(url)
+        subdomain ='.'.join(part for part in ext if (part and part!='www'))
+        return dfTenMill[dfTenMill['Domain'] == subdomain]['Open Page Rank'].values[0]
+        
+        
+    def get_ranking_data(self,url, dfTenMill):
+        ranking_data = dict()
+        #ranking_data['subdomain_alexa_ranking'] = self.get_alexa_ranking(url)
+        ranking_data['subdomain_tenMill_rank'] = self.get_domcop_10million_rank(url,dfTenMill)
+        ranking_data['subdomain_tenMill_open_page_rank'] =self.get_domcop_10million_open_page_rank(url,dfTenMill)
+        return ranking_data
+    
+if __name__ == "__main__":
+    a = RankingFeaturesExtractor(0)
 
-    #     #time.sleep(10)
+    r = a.get_alexa_ranking("https://diariodopoder.com.br/coronavirus/revisao-de-estudos-sobre-ivermectina-indica-eficacia-potencial-contra-covid-19")
+    print(r)
+    
+    a.testing()
 
 
-
-
-    #     rankingElement = self.driver.find_element(*(By.XPATH, "//li[contains(@class, 'js-globalRank')]/div[contains(@class,'websiteRanks-valueContainer')]"))          #"]")) #]
-    #     rankingString = rankingElement.text.replace(",", "")
-    #     return int(rankingString)
-
-
-a = RankingFeaturesExtractor(0)
-r0 = a.get_similarweb_ranking("https://diariodopoder.com.br/coronavirus/revisao-de-estudos-sobre-ivermectina-indica-eficacia-potencial-contra-covid-19")
-print(r0)
-#r = a.get_alexa_ranking("https://diariodopoder.com.br/coronavirus/revisao-de-estudos-sobre-ivermectina-indica-eficacia-potencial-contra-covid-19")
