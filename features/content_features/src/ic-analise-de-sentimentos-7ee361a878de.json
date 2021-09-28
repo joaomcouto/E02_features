@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ic-analise-de-sentimentos",
+  "private_key_id": "7ee361a878de550e6fe605573793784d27c6f38a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCv/7tQdqqg/zzq\n7K9oZ+WmCS462o756tlp+1rENjcjumrbl8BPanmYUSxsvYGXyL2bh11M/fFDB189\npGZIC6dTA+ZeCuEXlHj2w13z4c9fz8oo09Ahlxqj/B+EVKWIusl4JrMalNLnWPhA\nCBw/pMlxD2kDaWjKkh4Go5p7A3EQjqZcWrkeTjFQqQ0XkzHC9i31IOcZlRGAJpXH\nZY0tH4cjsAIaWxsoXmPP0ZWVWW1OdKQAjoKueJ8cXUWSYR45eOydZ5OUz0zSTuwH\n3b1vGsbo3G5+n6svejSybBPOrFf15r23goTOPIgdcWk5GiLpd456aotUfuOvdrf4\nHP6B7+4RAgMBAAECggEASMiSz7tLZAo5yJN6FMzGsWvhhPBGqX7gS45ponQjSHC6\n6TYwDwei4oVLQGr8cWdQVkXcJU9tW0FstyLKM6gyGcgmmCSaorRBdBcmPwnWxzI4\n0bqKu6FwIHnPFNwmms1YLQqgDfGW6JqoC17vQ7ijn9B2JrWMYx2bMjatV4r8UpJk\nFMZbFh4RIGOgh4HMCuQnYlQZsLUSpEFz1y3DwtHsc5VZiPPMOmktiPHN9n7jz0Y7\nRni/QON6fgZco4vIy/NRec2Hi5u6aLN7tQoSqNRo1R02BX72ANar8Kv/pihlgg8s\nslbL9z61ay2oXpq5CQHuRUOSXgTF7F4GKrGI53q1SwKBgQDUfv7z7eNK2WwE9KjX\nH0JrvrFhPR94ixb3xh386ZBzl0NJtlUeYJvJCzmmu57tWJyRmY+G8GBqKEqJdpOe\n+WiL0NNRZMb8Aqtqbo0RW8bhw0VTMl3toGZvwZjPKk7DDzRsToEAFNga7oA8aZMK\n5ry40hyWITpemnxZRUVXDyfVfwKBgQDUB+gpcMTnwWmY1Sa5rMEDUkzlIuIphPk/\nwpLjYnQq/hS+HKYsjebivhA4G6CWbg7exUgy8QXuQfLxqolIQqVx5jgfZemWwbBD\nb+EW0kefq1ls6Swg/q9ftW+9xXBgenZP8PYpdJkhq+DtmRsa+qirBJ9wciaLcmyO\nx4zOWZukbwKBgDeiABHQ6D8CaVtqyoF3t6YJyNrSa9jdYWgBQHykkaMRqRY1XFeV\np3OdMrzKRjORjXw5HfCQIk3ouor+tmtalNp2E70ti0MTV9mHk/tFce5Nd2ruttSt\nt+PuZZlnVDORWYI5k2B4FJQIeR5X7Z1fB23D5KQRkvyNqZydnCfM2fr1AoGBAJzE\n29sIDg5s6u6dauyN1ofmKgShLicUslV6P7Dv8oR3KE8IT7VRlgzACq3xf2K6LTR5\nGVDQ9FmdWUtlk+thm4IDfit45qUYwIKcDgkZoOtlfdEQ9hfPN0vEksH1YYl0AlZJ\nCzjLhQ1oT/5c3bWs71jDKj+xpt4j1DAdSvanOnTxAoGBAL/jMPVQCcEN5eejW3eE\nx1OD8U8HFX1s7EpOxa5iWfRhIHvN/4Pp4VJX8kxD33eLPkldqTLGx/0GcEziiNQk\nrWuyLsLXof5J5scHAi7B11i0+ofCLcNvroxcLyWBKnVyuHPKiU5LxSoNLARi+Mle\ngPy1uPUzUjNYPYc4YIaOnUb+\n-----END PRIVATE KEY-----\n",
+  "client_email": "my-nl-sa@ic-analise-de-sentimentos.iam.gserviceaccount.com",
+  "client_id": "108370294081892663299",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/my-nl-sa%40ic-analise-de-sentimentos.iam.gserviceaccount.com"
+}
